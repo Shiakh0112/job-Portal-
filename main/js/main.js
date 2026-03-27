@@ -197,15 +197,47 @@ function renderPagination() {
 }
 
 // ================= FILTER LOGIC =================
+function getChecked(name) {
+  return [...document.querySelectorAll(`input[name="${name}"]:checked`)].map(c => c.value);
+}
+
 function filterJobs() {
   const search = searchInput.value.toLowerCase();
+  const salaries = getChecked("salary");
+  const locations = getChecked("location");
+  const roles = getChecked("role");
+  const workModes = getChecked("workMode");
+  const timings = getChecked("jobTiming");
 
   filteredJobs = allJobs.filter((job) => {
-    return (
+    // Search filter
+    const matchSearch = !search ||
       job.companyName.toLowerCase().includes(search) ||
       job.role.toLowerCase().includes(search) ||
-      job.skillsRequired.some((s) => s.toLowerCase().includes(search))
-    );
+      job.skillsRequired.some((s) => s.toLowerCase().includes(search));
+
+    // Salary filter
+    const matchSalary = salaries.length === 0 || salaries.some(range => {
+      const [min, max] = range.split("-").map(Number);
+      const jobMin = parseInt(job.monthlySalary);
+      if (range === "60000+") return jobMin >= 60000;
+      return jobMin >= min && jobMin <= max;
+    });
+
+    // Location filter
+    const matchLocation = locations.length === 0 ||
+      locations.some(loc => job.location.toLowerCase().includes(loc.toLowerCase()));
+
+    // Role filter
+    const matchRole = roles.length === 0 || roles.includes(job.role);
+
+    // Work mode filter
+    const matchWorkMode = workModes.length === 0 || workModes.includes(job.workMode);
+
+    // Shift/timing filter
+    const matchTiming = timings.length === 0 || timings.includes(job.jobTiming);
+
+    return matchSearch && matchSalary && matchLocation && matchRole && matchWorkMode && matchTiming;
   });
 
   currentPage = 1;
@@ -237,6 +269,11 @@ searchInput.addEventListener("keyup", (e) => {
 });
 
 clearFiltersBtn.addEventListener("click", clearFilters);
+
+// Checkbox change pe filter apply ho
+document.addEventListener("change", (e) => {
+  if (e.target.type === "checkbox") filterJobs();
+});
 
 // ================= INIT =================
 document.addEventListener("DOMContentLoaded", fetchJobs);
