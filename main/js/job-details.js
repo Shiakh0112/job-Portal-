@@ -19,7 +19,7 @@ async function fetchJobs() {
 
     // If that fails, try relative path
     if (!response.ok) {
-      response = await fetch("data/jobs.json");
+      response = await fetch("../data/jobs.json");
     }
 
     if (!response.ok) {

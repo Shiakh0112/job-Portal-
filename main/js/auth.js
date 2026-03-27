@@ -20,7 +20,7 @@ if (loginForm) {
 
     // Find user with matching email and password
     const user = users.find(
-      (u) => u.email === email && u.password === password
+      (u) => u.email === email && u.password === password,
     );
 
     if (user) {
@@ -31,11 +31,11 @@ if (loginForm) {
           id: user.id,
           name: user.name,
           email: user.email,
-        })
+        }),
       );
 
       // Redirect to home page
-      window.location.href = "main/index.html";
+      window.location.href = "../index.html";
     } else {
       // Show error message
       const existingError = document.querySelector(".error-message");
@@ -108,7 +108,7 @@ if (registerForm) {
         id: newUser.id,
         name: newUser.name,
         email: newUser.email,
-      })
+      }),
     );
 
     // Show success message
@@ -120,7 +120,7 @@ if (registerForm) {
 
     // Redirect to home page after a short delay
     setTimeout(() => {
-      window.location.href = "main/index.html";
+      window.location.href = "../index.html";
     }, 2000);
   });
 }

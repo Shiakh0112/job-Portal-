@@ -36,7 +36,7 @@ const jobsPerPage = 6;
 // ================= FETCH JOBS =================
 async function fetchJobs() {
   try {
-    const response = await fetch("data/jobs.json");
+    const response = await fetch("../data/jobs.json");
 
     if (!response.ok) throw new Error("Fetch failed");
 
@@ -120,7 +120,10 @@ function renderJobs() {
             <div class="job-detail"><i class="fas fa-laptop-house"></i><span>${job.workMode}</span></div>
           </div>
           <div class="job-skills">
-            ${job.skillsRequired.slice(0, 4).map((s) => `<span class="skill-tag">${s}</span>`).join("")}
+            ${job.skillsRequired
+              .slice(0, 4)
+              .map((s) => `<span class="skill-tag">${s}</span>`)
+              .join("")}
           </div>
         </div>
         <div class="job-card-footer">
@@ -151,8 +154,11 @@ function renderPagination() {
   let html = `<button ${currentPage === 1 ? "disabled" : ""} id="prev">&laquo;</button>`;
 
   // Always show: first, last, current, and 1 on each side of current
-  const pages = new Set([1, totalPages, currentPage, currentPage - 1, currentPage + 1]
-    .filter(p => p >= 1 && p <= totalPages));
+  const pages = new Set(
+    [1, totalPages, currentPage, currentPage - 1, currentPage + 1].filter(
+      (p) => p >= 1 && p <= totalPages,
+    ),
+  );
   const sorted = [...pages].sort((a, b) => a - b);
 
   let prev = 0;

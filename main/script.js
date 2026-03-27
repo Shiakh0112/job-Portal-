@@ -23,8 +23,8 @@ function checkAuthStatus() {
 checkAuthStatus();
 logoutLink.addEventListener("click", (e) => {
   localStorage.removeItem("user");
-  checkAuthStatus();
   alert("You have been logged out successfully.");
+  window.location.href = "./html/login.html";
 });
 menuBtn.addEventListener("click", () => {
   navLinks.classList.toggle("open");

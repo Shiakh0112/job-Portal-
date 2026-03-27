@@ -60,7 +60,7 @@ async function fetchJobs() {
       const applications =
         JSON.parse(localStorage.getItem("applications")) || [];
       const userApplications = applications.filter(
-        (app) => app.userId === user.id
+        (app) => app.userId === user.id,
       );
 
       // Render applied jobs
@@ -80,7 +80,7 @@ async function fetchJobs() {
       const applications =
         JSON.parse(localStorage.getItem("applications")) || [];
       const userApplications = applications.filter(
-        (app) => app.userId === user.id
+        (app) => app.userId === user.id,
       );
 
       // Render applied jobs
@@ -177,8 +177,8 @@ function renderAppliedJobs(user, applications) {
         <div class="applied-job-card" data-id="${job.id}">
             <div class="applied-job-header">
                 <img src="${job.logo}" alt="${
-        job.companyName
-      }" class="company-logo">
+                  job.companyName
+                }" class="company-logo">
                 <div class="company-info">
                     <h4>${job.companyName}</h4>
                     <p class="job-title">${job.role}</p>
@@ -200,11 +200,11 @@ function renderAppliedJobs(user, applications) {
             </div>
             <div class="applied-date">
                 <i class="fas fa-calendar-check"></i> Applied on ${formatDate(
-                  job.appliedAt
+                  job.appliedAt,
                 )}
             </div>
         </div>
-    `
+    `,
     )
     .join("");
 
@@ -237,7 +237,7 @@ function renderTestScores(user) {
 
   // Sort test scores by date (most recent first)
   userTestScores.sort(
-    (a, b) => new Date(b.completedAt) - new Date(a.completedAt)
+    (a, b) => new Date(b.completedAt) - new Date(a.completedAt),
   );
 
   testScoresList.innerHTML = userTestScores
@@ -255,20 +255,20 @@ function renderTestScores(user) {
             <div class="test-score-header">
                 <h4>${testScore.testTitle}</h4>
                 <div class="test-score ${scoreClass}">${
-        testScore.percentage
-      }%</div>
+                  testScore.percentage
+                }%</div>
             </div>
             <div class="test-score-details">
                 <div class="test-score-item">
                     <i class="fas fa-check-circle"></i>
                     <span>Correct Answers: ${testScore.score}/${
-        testScore.totalQuestions
-      }</span>
+                      testScore.totalQuestions
+                    }</span>
                 </div>
                 <div class="test-score-item">
                     <i class="fas fa-calendar"></i>
                     <span>Completed on: ${formatDate(
-                      testScore.completedAt
+                      testScore.completedAt,
                     )}</span>
                 </div>
             </div>
