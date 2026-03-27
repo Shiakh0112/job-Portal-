@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile - Job Portal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./main/style.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <i id="menu-btn" class="ri-menu-line"></i>
+
+          <a href="#" class="logo">Dream<span>Hire</span></a>
+        </div>
+      </div>
+   <ul class="nav__links" id="nav-links">
+        <li><a href="./main/index.html" >Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./job.html">Jobs</a></li>
+        <li><a href="./Services.html">Services</a></li>
+        <li><a href="./main/test/contests.html">Contests</a></li>
+      </ul>
+      <div class="nav__menu__btn">
+        <div class="user">
+          <div id="auth">
+            <a href="./register.html">
+              <button class="btn rgs">Register</button></a
+            >
+            <a href="./login.html"><button class="btn lgn">login</button></a>
+          </div>
+          <div id="profile">
+            <li><a href="./profile.html">Profile</a></li>
+            <button class="btn" id="logout">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="container">
+        <div class="profile-container">
+          <div class="profile-header">
+            <div class="profile-avatar">
+              <i class="fas fa-user-circle"></i>
+            </div>
+            <div class="profile-info">
+              <h2 id="userName">Loading...</h2>
+              <p id="userEmail">Loading...</p>
+              <button id="editProfileBtn" class="edit-profile-btn">
+                <i class="fas fa-edit"></i> Edit Profile
+              </button>
+            </div>
+          </div>
+
+          <div class="profile-content">
+            <div class="profile-details-section">
+              <h3>Personal Information</h3>
+              <div class="profile-details-grid">
+                <div class="detail-item">
+                  <span class="detail-label">Full Name:</span>
+                  <span id="profileFullName" class="detail-value"
+                    >Loading...</span
+                  >
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Email:</span>
+                  <span id="profileEmail" class="detail-value">Loading...</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Phone:</span>
+                  <span id="profilePhone" class="detail-value">Loading...</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Location:</span>
+                  <span id="profileLocation" class="detail-value"
+                    >Loading...</span
+                  >
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Job Role:</span>
+                  <span id="profileJobRole" class="detail-value"
+                    >Loading...</span
+                  >
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Experience:</span>
+                  <span id="profileExperience" class="detail-value"
+                    >Loading...</span
+                  >
+                </div>
+              </div>
+
+              <div class="detail-item full-width">
+                <span class="detail-label">Skills:</span>
+                <div id="profileSkills" class="skills-container">
+                  <!-- Skills will be dynamically inserted here -->
+                </div>
+              </div>
+
+              <div class="detail-item full-width">
+                <span class="detail-label">Bio:</span>
+                <p id="profileBio" class="detail-value">Loading...</p>
+              </div>
+            </div>
+
+            <!-- Test Scores Section -->
+            <div class="profile-section">
+              <h3>Test Scores</h3>
+              <div id="loadingTestScores" class="loading-spinner">
+                <i class="fas fa-spinner fa-spin"></i> Loading your test
+                scores...
+              </div>
+              <div
+                id="testScoresList"
+                class="test-scores-list"
+                style="display: none"
+              >
+                <!-- Test scores will be dynamically inserted here -->
+              </div>
+              <div
+                id="noTestScores"
+                class="no-test-scores"
+                style="display: none"
+              >
+                <p>You haven't taken any tests yet.</p>
+                <a href="./main/test/index.html" class="btn-primary"
+                  >Take a Test</a
+                >
+              </div>
+            </div>
+
+            <div class="profile-section">
+              <h3>Applied Jobs</h3>
+              <div id="loadingSpinner" class="loading-spinner">
+                <i class="fas fa-spinner fa-spin"></i> Loading your
+                applications...
+              </div>
+              <div
+                id="appliedJobsList"
+                class="applied-jobs-list"
+                style="display: none"
+              >
+                <!-- Applied jobs will be dynamically inserted here -->
+              </div>
+              <div
+                id="noAppliedJobs"
+                class="no-applied-jobs"
+                style="display: none"
+              >
+                <p>You haven't applied to any jobs yet.</p>
+                <a href="./job.html" class="btn-primary">Browse Jobs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Edit Profile Modal -->
+    <div id="editProfileModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>Edit Profile</h3>
+          <span class="close-modal">&times;</span>
+        </div>
+        <form id="editProfileForm">
+          <div class="form-group">
+            <label for="editFullName">Full Name</label>
+            <input type="text" id="editFullName" required />
+          </div>
+          <div class="form-group">
+            <label for="editEmail">Email</label>
+            <input type="email" id="editEmail" required />
+          </div>
+          <div class="form-group">
+            <label for="editPhone">Phone Number</label>
+            <input type="tel" id="editPhone" />
+          </div>
+          <div class="form-group">
+            <label for="editLocation">Location</label>
+            <input type="text" id="editLocation" />
+          </div>
+          <div class="form-group">
+            <label for="editJobRole">Job Role</label>
+            <input type="text" id="editJobRole" />
+          </div>
+          <div class="form-group">
+            <label for="editExperience">Experience</label>
+            <select id="editExperience">
+              <option value="Fresher">Fresher</option>
+              <option value="1-2 years">1-2 years</option>
+              <option value="3-5 years">3-5 years</option>
+              <option value="5-10 years">5-10 years</option>
+              <option value="10+ years">10+ years</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="editSkills">Skills (comma separated)</label>
+            <input
+              type="text"
+              id="editSkills"
+              placeholder="e.g., JavaScript, React, Node.js"
+            />
+          </div>
+          <div class="form-group">
+            <label for="editBio">Bio</label>
+            <textarea id="editBio" rows="4"></textarea>
+          </div>
+          <div class="form-actions">
+            <button type="button" class="btn-cancel">Cancel</button>
+            <button type="submit" class="btn-save">Save Changes</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Dream<span>Job</span></a>
+          </div>
+          <p>
+            Our platform is designed to help you find the perfect job and
+            achieve your professional dreams.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="./main/index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./job.html">Jobs</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <ul class="footer__links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +91 234 56788
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> 123 Main Street,
+                Anytown, USA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+    <script src="./main/script.js"></script>
+    <script src="js/profile.js"></script>
+  </body>
+</html>

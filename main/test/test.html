@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test in Progress</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <main class="quiz-container">
+      <header class="quiz-header">
+        <div id="test-info">
+          <!-- Test title and duration will be inserted here -->
+        </div>
+        <div id="timer" class="timer-box">
+          Time Left: <span id="time-left">00:00</span>
+        </div>
+      </header>
+
+      <section id="quiz-content">
+        <div id="question-container" class="question-box">
+          <!-- Question will be inserted here -->
+        </div>
+        <div id="options-container" class="options-box">
+          <!-- Options will be inserted here -->
+        </div>
+      </section>
+
+      <footer id="navigation" class="navigation-box">
+        <button id="prev-btn" class="nav-btn" disabled>Previous</button>
+        <button id="next-btn" class="nav-btn">Next</button>
+      </footer>
+
+      <section id="result-container" class="result-box" style="display: none">
+        <h2>Test Completed!</h2>
+        <p>Your Score: <span id="score-display"></span></p>
+        <p id="result-message"></p>
+        <button id="restart-btn" class="nav-btn">Go to Home</button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

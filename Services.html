@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Services - DreamHire</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main/style.css" />
+    <style>
+      /* Additional styles specific to Services page */
+
+      .services-hero {
+        margin-top: 5rem;
+        padding: 120px 0 80px;
+        background: linear-gradient(
+            135deg,
+            rgba(106, 56, 194, 0.9) 0%,
+            rgba(97, 50, 180, 0.9) 100%
+          ),
+          url("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80")
+            no-repeat center center/cover;
+        color: #fff;
+        text-align: center;
+      }
+
+      .services-hero h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin-bottom: 1.5rem;
+      }
+
+      .services-hero p {
+        font-size: 1.2rem;
+        max-width: 700px;
+        margin: 0 auto 2rem;
+        line-height: 1.8;
+        opacity: 0.9;
+      }
+
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+
+      .service-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2.5rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid #f0f0f0;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .service-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 40px rgba(106, 56, 194, 0.15);
+      }
+
+      .service-icon {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        margin-bottom: 1.5rem;
+      }
+
+      /* Individual Service Icon Colors */
+      .service-card:nth-child(1) .service-icon {
+        background: rgba(106, 56, 194, 0.1);
+        color: var(--primary-color);
+      }
+      .service-card:nth-child(2) .service-icon {
+        background: rgba(250, 96, 33, 0.1);
+        color: #fa6021;
+      }
+      .service-card:nth-child(3) .service-icon {
+        background: rgba(58, 194, 186, 0.1);
+        color: #3ac2ba;
+      }
+      .service-card:nth-child(4) .service-icon {
+        background: rgba(251, 188, 9, 0.1);
+        color: #fbbc09;
+      }
+      .service-card:nth-child(5) .service-icon {
+        background: rgba(70, 128, 231, 0.1);
+        color: #4680e7;
+      }
+      .service-card:nth-child(6) .service-icon {
+        background: rgba(240, 74, 12, 0.1);
+        color: #f04a0c;
+      }
+
+      .service-card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--text-dark);
+      }
+
+      .service-card p {
+        color: var(--text-light);
+        line-height: 1.7;
+        margin-bottom: 1.5rem;
+        flex-grow: 1; /* Allows all cards to be equal height */
+      }
+
+      .service-card .btn {
+        align-self: flex-start; /* Aligns button to the bottom */
+        padding: 0.6rem 1.5rem;
+      }
+
+      .process-section {
+        padding: 80px 0;
+        background-color: #f9f9ff;
+      }
+
+      .process-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+        text-align: center;
+      }
+
+      .process-card {
+        position: relative;
+      }
+
+      .process-card::after {
+        content: "";
+        position: absolute;
+        top: 35px;
+        right: -50%;
+        width: 100%;
+        height: 2px;
+        background: linear-gradient(90deg, var(--primary-color), transparent);
+        z-index: -1;
+      }
+      .process-card:last-child::after {
+        display: none;
+      }
+
+      .process-number {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto 1.5rem;
+        background: var(--primary-color);
+        color: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8rem;
+        font-weight: 700;
+      }
+
+      .process-card h3 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        color: var(--text-dark);
+      }
+
+      .cta-banner {
+        background: linear-gradient(135deg, #fa6021 0%, #f04a0c 100%);
+        padding: 60px 20px;
+        text-align: center;
+        color: #fff;
+        border-radius: 12px;
+        margin: 40px auto;
+        max-width: 900px;
+      }
+
+      .cta-banner h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .cta-banner p {
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        opacity: 0.9;
+      }
+
+      .cta-banner .btn {
+        background: #fff;
+        color: #fa6021;
+        font-weight: 600;
+      }
+      .cta-banner .btn:hover {
+        background: #f0f0f0;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+      }
+
+      @media (max-width: 768px) {
+        .services-hero h1 {
+          font-size: 2.5rem;
+        }
+        .services-grid {
+          grid-template-columns: 1fr;
+        }
+        .process-card::after {
+          display: none;
+        }
+        .cta-banner h2 {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <i id="menu-btn" class="ri-menu-line"></i>
+          <a href="./main/index.html" class="logo">Dream<span>Hire</span></a>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="./main/index.html" >Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./job.html">Jobs</a></li>
+        <li><a href="./Services.html">Services</a></li>
+        <li><a href="./main/test/contests.html">Contests</a></li>
+      </ul>
+      <div class="nav__menu__btn">
+        <div class="user">
+          <div id="auth">
+            <a href="./register.html">
+              <button class="btn rgs">Register</button>
+            </a>
+            <a href="./login.html"><button class="btn lgn">login</button></a>
+          </div>
+          <div id="profile">
+            <li><a href="./profile.html">Profile</a></li>
+            <button class="btn" id="logout">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Services Hero Section -->
+    <section class="services-hero section__container">
+      <div class="section__container">
+        <h1>Our <span>Services</span></h1>
+        <p>
+          We offer a comprehensive suite of tools and resources designed to
+          empower you in your job search and career development journey.
+        </p>
+      </div>
+    </section>
+
+    <!-- Services Details Section -->
+    <section class="section__container">
+      <h2 class="section__header">What We <span>Offer</span></h2>
+      <p class="section__description">
+        Explore our range of services tailored to help you find your dream job
+        and grow professionally.
+      </p>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ri-search-eye-line"></i>
+          </div>
+          <h3>Smart Job Search</h3>
+          <p>
+            Our advanced algorithm matches your profile with the most relevant
+            job openings, saving you time and connecting you with opportunities
+            that align with your skills and aspirations.
+          </p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ri-file-list-3-line"></i>
+          </div>
+          <h3>Skill Assessment Tests</h3>
+          <p>
+            Take our NCAT and other specialized tests to evaluate your aptitude
+            and technical skills. Identify your strengths and areas for
+            improvement to stand out to employers.
+          </p>
+          <a href="#" class="btn">Take a Test</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ri-compass-3-line"></i>
+          </div>
+          <h3>Career Guidance</h3>
+          <p>
+            Get personalized advice from industry experts. Our career counselors
+            help you navigate your career path, make informed decisions, and
+            achieve your professional goals.
+          </p>
+          <a href="#" class="btn">Get Guidance</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ri-file-text-line"></i>
+          </div>
+          <h3>Resume Builder</h3>
+          <p>
+            Create a professional, eye-catching resume with our easy-to-use
+            builder. Choose from proven templates and get instant feedback to
+            make your application shine.
+          </p>
+          <a href="#" class="btn">Build Resume</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ri-user-voice-line"></i>
+          </div>
+          <h3>Interview Preparation</h3>
+          <p>
+            Master your interview skills with our mock interviews, common
+            questions database, and expert tips. Build the confidence you need
+            to ace any interview.
+          </p>
+          <a href="#" class="btn">Start Prep</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="ri-notification-3-line"></i>
+          </div>
+          <h3>Premium Job Alerts</h3>
+          <p>
+            Stay ahead of the competition with instant notifications for new
+            jobs that match your profile. Be the first to apply and increase
+            your chances of getting hired.
+          </p>
+          <a href="#" class="btn">Set Alerts</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="process-section">
+      <div class="section__container">
+        <h2 class="section__header">How It <span>Works</span></h2>
+        <p class="section__description">
+          Getting started with DreamHire is simple. Follow these easy steps to
+          accelerate your career.
+        </p>
+        <div class="process-grid">
+          <div class="process-card">
+            <div class="process-number">1</div>
+            <h3>Create Your Profile</h3>
+            <p>
+              Sign up for free and build a comprehensive profile that showcases
+              your skills, experience, and career goals.
+            </p>
+          </div>
+          <div class="process-card">
+            <div class="process-number">2</div>
+            <h3>Explore & Assess</h3>
+            <p>
+              Browse our job listings, take skill tests, and use our career
+              tools to prepare for your next big move.
+            </p>
+          </div>
+          <div class="process-card">
+            <div class="process-number">3</div>
+            <h3>Apply & Connect</h3>
+            <p>
+              Apply to jobs with a single click and connect directly with top
+              hiring managers and recruiters.
+            </p>
+          </div>
+          <div class="process-card">
+            <div class="process-number">4</div>
+            <h3>Get Hired</h3>
+            <p>
+              Land your dream job and embark on an exciting new career journey
+              with confidence.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="section__container">
+      <div class="cta-banner">
+        <h2>Ready to Take the Next Step?</h2>
+        <p>
+          Join thousands of professionals who have advanced their careers with
+          DreamHire.
+        </p>
+        <a href="./register.html" class="btn">Get Started for Free</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Dream<span>Job</span></a>
+          </div>
+          <p>
+            Our platform is designed to help you find the perfect job and
+            achieve your professional dreams.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="./main/index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./job.html">Jobs</a></li>
+            <li><a href="./Services.html">Services</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <ul class="footer__links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +91 234 56788
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> 123 Main Street,
+                Anytown, USA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="./main/script.js"></script>
+  </body>
+</html>

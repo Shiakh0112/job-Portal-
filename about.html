@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - DreamHire</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./main/style.css" />
+    <style>
+      /* Additional styles specific to About page */
+      .about-hero {
+        margin-top: 6rem;
+        padding: 120px 0 80px;
+        background: linear-gradient(
+          135deg,
+          #f5f4fa 0%,
+          rgba(251, 251, 253, 0.8) 100%
+        );
+        position: relative;
+        overflow: hidden;
+      }
+
+      .about-hero-content {
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+      }
+
+      .about-hero h1 {
+        font-size: 3.5rem;
+        font-weight: 700;
+        color: var(--text-dark);
+        margin-bottom: 1.5rem;
+      }
+
+      .about-hero p {
+        font-size: 1.2rem;
+        color: var(--text-light);
+        line-height: 1.8;
+      }
+
+      .about-hero-image {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        opacity: 0.05;
+        object-fit: cover;
+      }
+
+      .story-section {
+        padding: 80px 0;
+        background-color: #fff;
+      }
+
+      .story-container {
+        display: flex;
+        gap: 4rem;
+        align-items: center;
+      }
+
+      .story-content {
+        flex: 1;
+      }
+
+      .story-image {
+        flex: 1;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+      }
+
+      .story-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .mission-vision {
+        padding: 80px 0;
+        background-color: #f9f9ff;
+      }
+
+      .mission-vision-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+      }
+
+      .mission-card,
+      .vision-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 3rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+      }
+
+      .mission-card::before,
+      .vision-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 8px;
+        height: 100%;
+      }
+
+      .mission-card::before {
+        background: var(--primary-color);
+      }
+
+      .vision-card::before {
+        background: #fa6021;
+      }
+
+      .mission-card h3,
+      .vision-card h3 {
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      .mission-card i,
+      .vision-card i {
+        font-size: 2.5rem;
+      }
+
+      .mission-card i {
+        color: var(--primary-color);
+      }
+
+      .vision-card i {
+        color: #fa6021;
+      }
+
+      .values-section {
+        padding: 80px 0;
+        background-color: #fff;
+      }
+
+      .values-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+
+      .value-card {
+        background: #fff;
+        border-radius: 12px;
+        padding: 2.5rem 2rem;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .value-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(106, 56, 194, 0.15);
+      }
+
+      .value-icon {
+        width: 80px;
+        height: 80px;
+        margin: 0 auto 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 2rem;
+      }
+
+      .value-card:nth-child(1) .value-icon {
+        background: rgba(106, 56, 194, 0.1);
+        color: var(--primary-color);
+      }
+
+      .value-card:nth-child(2) .value-icon {
+        background: rgba(250, 96, 33, 0.1);
+        color: #fa6021;
+      }
+
+      .value-card:nth-child(3) .value-icon {
+        background: rgba(58, 194, 186, 0.1);
+        color: #3ac2ba;
+      }
+
+      .value-card:nth-child(4) .value-icon {
+        background: rgba(251, 188, 9, 0.1);
+        color: #fbbc09;
+      }
+
+      .value-card h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--text-dark);
+      }
+
+      .value-card p {
+        color: var(--text-light);
+        line-height: 1.6;
+      }
+
+      .team-section {
+        padding: 80px 0;
+        background-color: #f9f9ff;
+      }
+
+      .team-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+
+      .team-card {
+        background: #fff;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .team-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 15px 35px rgba(106, 56, 194, 0.15);
+      }
+
+      .team-image {
+        height: 300px;
+        overflow: hidden;
+      }
+
+      .team-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.5s ease;
+      }
+
+      .team-card:hover .team-image img {
+        transform: scale(1.05);
+      }
+
+      .team-info {
+        padding: 1.5rem;
+      }
+
+      .team-info h3 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+        color: var(--text-dark);
+      }
+
+      .team-info p {
+        color: var(--primary-color);
+        margin-bottom: 1rem;
+      }
+
+      .team-social {
+        display: flex;
+        gap: 1rem;
+      }
+
+      .team-social a {
+        width: 36px;
+        height: 36px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: rgba(106, 56, 194, 0.1);
+        color: var(--primary-color);
+        transition: background 0.3s ease, color 0.3s ease;
+      }
+
+      .team-social a:hover {
+        background: var(--primary-color);
+        color: #fff;
+      }
+
+      .stats-section {
+        padding: 80px 0;
+        background: linear-gradient(
+          135deg,
+          var(--primary-color) 0%,
+          var(--primary-color-dark) 100%
+        );
+        color: #fff;
+      }
+
+      .stats-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 2rem;
+        text-align: center;
+      }
+
+      .stat-item {
+        padding: 1.5rem;
+      }
+
+      .stat-number {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+      }
+
+      .stat-label {
+        font-size: 1.1rem;
+        opacity: 0.9;
+      }
+
+      .cta-section {
+        padding: 80px 0;
+        background-color: #fff;
+        text-align: center;
+      }
+
+      .cta-container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .cta-container h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        color: var(--text-dark);
+      }
+
+      .cta-container p {
+        font-size: 1.2rem;
+        color: var(--text-light);
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+
+      .cta-buttons {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+      }
+
+      .btn-outline {
+        padding: 0.6rem 1.2rem;
+        border: 2px solid var(--primary-color);
+        background: transparent;
+        color: var(--primary-color);
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .btn-outline:hover {
+        background: var(--primary-color);
+        color: #fff;
+      }
+
+      @media (max-width: 768px) {
+        .about-hero h1 {
+          font-size: 2.5rem;
+        }
+
+        .story-container {
+          flex-direction: column;
+          gap: 2rem;
+        }
+
+        .mission-vision-container {
+          grid-template-columns: 1fr;
+          gap: 2rem;
+        }
+
+        .stats-container {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <i id="menu-btn" class="ri-menu-line"></i>
+          <a href="./main/index.html" class="logo">Dream<span>Hire</span></a>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="./main/index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./job.html">Jobs</a></li>
+        <li><a href="./Services.html">Services</a></li>
+        <li><a href="./main/test/contests.html">Contests</a></li>
+      </ul>
+      <div class="nav__menu__btn">
+        <div class="user">
+          <div id="auth">
+            <a href="./register.html">
+              <button class="btn rgs">Register</button>
+            </a>
+            <a href="./login.html"><button class="btn lgn">login</button></a>
+          </div>
+          <div id="profile">
+            <li><a href="./profile.html">Profile</a></li>
+            <button class="btn" id="logout">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Hero Section -->
+    <section class="about-hero">
+      <img
+        src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80"
+        alt="About Us"
+        class="about-hero-image"
+      />
+      <div class="section__container about-hero-content">
+        <h1>About <span>DreamHire</span></h1>
+        <p>
+          We're on a mission to revolutionize the job-seeking experience by
+          connecting talented individuals with their dream careers. Our platform
+          is designed to make job hunting efficient, enjoyable, and successful.
+        </p>
+      </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="story-section">
+      <div class="section__container">
+        <div class="story-container">
+          <div class="story-content">
+            <h2 class="section__header">Our <span>Story</span></h2>
+            <p class="section__description">
+              DreamHire was founded in 2020 by a team of passionate
+              professionals who experienced firsthand the challenges of finding
+              the right job. We saw a gap in the market for a platform that not
+              only lists job opportunities but also helps candidates prepare and
+              improve their chances of landing their dream job.
+            </p>
+            <p class="section__description">
+              What started as a small initiative has now grown into a
+              comprehensive platform that serves thousands of job seekers and
+              hundreds of companies across various industries. Our commitment to
+              innovation and user satisfaction continues to drive us forward.
+            </p>
+          </div>
+          <div class="story-image">
+            <img
+              src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1768&q=80"
+              alt="Our Story"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="mission-vision">
+      <div class="section__container">
+        <h2 class="section__header">Our Mission & <span>Vision</span></h2>
+        <p class="section__description">
+          We're driven by a clear purpose and a bold vision for the future of
+          recruitment.
+        </p>
+        <div class="mission-vision-container">
+          <div class="mission-card">
+            <h3><i class="ri-flag-line"></i> Our Mission</h3>
+            <p>
+              To empower job seekers with the tools, resources, and
+              opportunities they need to find meaningful employment. We strive
+              to bridge the gap between talent and opportunity by creating a
+              platform that benefits both candidates and employers.
+            </p>
+          </div>
+          <div class="vision-card">
+            <h3><i class="ri-eye-line"></i> Our Vision</h3>
+            <p>
+              To become the world's most trusted and comprehensive career
+              platform, transforming how people find jobs and how companies
+              discover talent. We envision a future where every individual can
+              find a job that aligns with their skills, passions, and
+              aspirations.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Values Section -->
+    <section class="values-section">
+      <div class="section__container">
+        <h2 class="section__header">Our Core <span>Values</span></h2>
+        <p class="section__description">
+          These principles guide everything we do at DreamHire.
+        </p>
+        <div class="values-grid">
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="ri-user-heart-line"></i>
+            </div>
+            <h3>User-Centric</h3>
+            <p>
+              We put our users at the center of everything we do, designing
+              solutions that address their real needs and challenges.
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="ri-lightbulb-line"></i>
+            </div>
+            <h3>Innovation</h3>
+            <p>
+              We continuously innovate to improve our platform and introduce new
+              features that make job hunting more effective and enjoyable.
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="ri-shield-check-line"></i>
+            </div>
+            <h3>Integrity</h3>
+            <p>
+              We operate with transparency and honesty, building trust with our
+              users and partners through ethical practices.
+            </p>
+          </div>
+          <div class="value-card">
+            <div class="value-icon">
+              <i class="ri-team-line"></i>
+            </div>
+            <h3>Collaboration</h3>
+            <p>
+              We believe in the power of collaboration, both within our team and
+              with our users, to create meaningful connections.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+      <div class="section__container">
+        <h2 class="section__header">Meet Our <span>Leadership Team</span></h2>
+        <p class="section__description">
+          The passionate individuals behind DreamHire's success.
+        </p>
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-image">
+              <img
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+                alt="Team Member"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Alex Johnson</h3>
+              <p>CEO & Founder</p>
+              <div class="team-social">
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-mail-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-image">
+              <img
+                src="https://images.unsplash.com/photo-1494790108755-2616b332c6ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+                alt="Team Member"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Sarah Williams</h3>
+              <p>CTO & Co-Founder</p>
+              <div class="team-social">
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-mail-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-image">
+              <img
+                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80"
+                alt="Team Member"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Michael Chen</h3>
+              <p>Head of Product</p>
+              <div class="team-social">
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-mail-fill"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-image">
+              <img
+                src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1888&q=80"
+                alt="Team Member"
+              />
+            </div>
+            <div class="team-info">
+              <h3>Emily Rodriguez</h3>
+              <p>Head of Marketing</p>
+              <div class="team-social">
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+                <a href="#"><i class="ri-mail-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+      <div class="section__container">
+        <h2 class="section__header" style="color: #fff">
+          DreamHire by the <span style="color: #fff">Numbers</span>
+        </h2>
+        <div class="stats-container">
+          <div class="stat-item">
+            <div class="stat-number">50K+</div>
+            <div class="stat-label">Active Job Seekers</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">1K+</div>
+            <div class="stat-label">Partner Companies</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">10K+</div>
+            <div class="stat-label">Successful Placements</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">95%</div>
+            <div class="stat-label">Satisfaction Rate</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+      <div class="section__container cta-container">
+        <h2>Ready to Find Your <span>Dream Job?</span></h2>
+        <p>
+          Join thousands of job seekers who have already found their perfect
+          career match through DreamHire.
+        </p>
+        <div class="cta-buttons">
+          <a href="./register.html" class="btn">Get Started</a>
+          <a href="./job.html" class="btn-outline">Browse Jobs</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Dream<span>Job</span></a>
+          </div>
+          <p>
+            Our platform is designed to help you find the perfect job and
+            achieve your professional dreams.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="./main/index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./job.html">Jobs</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <ul class="footer__links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +91 234 56788
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> 123 Main Street,
+                Anytown, USA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="./main/script.js"></script>
+  </body>
+</html>

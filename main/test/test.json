@@ -1,0 +1,4650 @@
+{
+  "tests": [
+    {
+      "id": 1,
+      "title": "Frontend Web Developer Test",
+      "description": "Test your HTML, CSS, and JavaScript fundamentals through realistic UI questions.",
+      "duration": "30 min",
+      "questions": 25,
+      "skills": ["HTML", "CSS", "JavaScript", "Responsive Design"],
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which HTML5 element is used to define navigation links?",
+          "options": ["<navigation>", "<nav>", "<navbar>", "<menu>"],
+          "correctAnswer": "<nav>"
+        },
+        {
+          "question": "Which CSS property is used to change the text color of an element?",
+          "options": ["text-color", "font-color", "color", "text-style"],
+          "correctAnswer": "color"
+        },
+        {
+          "question": "Which JavaScript method is used to add an element to the end of an array?",
+          "options": ["push()", "pop()", "shift()", "unshift()"],
+          "correctAnswer": "push()"
+        },
+        {
+          "question": "Which CSS unit is relative to the font size of the root element?",
+          "options": ["em", "px", "rem", "%"],
+          "correctAnswer": "rem"
+        },
+        {
+          "question": "What does the 'async' attribute in a script tag do?",
+          "options": [
+            "Stops the HTML parsing until the script is downloaded and executed",
+            "Downloads the script without blocking HTML parsing, but executes it as soon as it's downloaded",
+            "Delays script execution until the HTML document is fully parsed",
+            "Specifies that the script should be executed synchronously"
+          ],
+          "correctAnswer": "Downloads the script without blocking HTML parsing, but executes it as soon as it's downloaded"
+        },
+        {
+          "question": "Which CSS property is used to create flexible layouts?",
+          "options": ["position", "display: flex", "float", "margin"],
+          "correctAnswer": "display: flex"
+        },
+        {
+          "question": "What is the correct way to check if a variable is an array in JavaScript?",
+          "options": [
+            "typeof arr === 'array'",
+            "arr instanceof Array",
+            "Array.isArray(arr)",
+            "Both arr instanceof Array and Array.isArray(arr)"
+          ],
+          "correctAnswer": "Both arr instanceof Array and Array.isArray(arr)"
+        },
+        {
+          "question": "Which HTML5 element is used to define content that is tangentially related to the content around it?",
+          "options": ["<section>", "<article>", "<aside>", "<details>"],
+          "correctAnswer": "<aside>"
+        },
+        {
+          "question": "Which CSS property is used to create a grid layout?",
+          "options": [
+            "display: grid",
+            "display: flex",
+            "display: table",
+            "display: block"
+          ],
+          "correctAnswer": "display: grid"
+        },
+        {
+          "question": "What is the purpose of the viewport meta tag in HTML?",
+          "options": [
+            "To specify the character encoding of the document",
+            "To control the layout on mobile browsers",
+            "To define the visible area of a webpage",
+            "Both to control the layout on mobile browsers and define the visible area of a webpage"
+          ],
+          "correctAnswer": "Both to control the layout on mobile browsers and define the visible area of a webpage"
+        },
+        {
+          "question": "Which JavaScript method is used to remove the last element from an array?",
+          "options": ["push()", "pop()", "shift()", "unshift()"],
+          "correctAnswer": "pop()"
+        },
+        {
+          "question": "Which CSS property is used to create space between the border and the content?",
+          "options": ["margin", "border", "padding", "spacing"],
+          "correctAnswer": "padding"
+        },
+        {
+          "question": "What is the purpose of the alt attribute in an img tag?",
+          "options": [
+            "To specify the source of the image",
+            "To provide alternative text for the image",
+            "To set the alignment of the image",
+            "To define the height of the image"
+          ],
+          "correctAnswer": "To provide alternative text for the image"
+        },
+        {
+          "question": "Which JavaScript event is triggered when the user clicks on an HTML element?",
+          "options": ["onchange", "onclick", "onmouseover", "onsubmit"],
+          "correctAnswer": "onclick"
+        },
+        {
+          "question": "Which CSS property is used to change the background color of an element?",
+          "options": ["background-color", "bgcolor", "color", "background"],
+          "correctAnswer": "background-color"
+        },
+        {
+          "question": "What is the purpose of the z-index property in CSS?",
+          "options": [
+            "To specify the order of elements along the z-axis",
+            "To set the height of an element",
+            "To define the zoom level of an element",
+            "To specify the position of an element on the x-axis"
+          ],
+          "correctAnswer": "To specify the order of elements along the z-axis"
+        },
+        {
+          "question": "Which JavaScript method is used to select an element by its ID?",
+          "options": [
+            "document.querySelector()",
+            "document.getElementByClass()",
+            "document.getElementById()",
+            "document.getElementByTagName()"
+          ],
+          "correctAnswer": "document.getElementById()"
+        },
+        {
+          "question": "Which CSS property is used to make text bold?",
+          "options": [
+            "text-style",
+            "font-weight",
+            "font-style",
+            "text-decoration"
+          ],
+          "correctAnswer": "font-weight"
+        },
+        {
+          "question": "What is the purpose of the defer attribute in a script tag?",
+          "options": [
+            "Stops the HTML parsing until the script is downloaded and executed",
+            "Downloads the script without blocking HTML parsing, but executes it as soon as it's downloaded",
+            "Delays script execution until the HTML document is fully parsed",
+            "Specifies that the script should be executed synchronously"
+          ],
+          "correctAnswer": "Delays script execution until the HTML document is fully parsed"
+        },
+        {
+          "question": "Which CSS property is used to create rounded corners?",
+          "options": [
+            "border-style",
+            "border-radius",
+            "corner-radius",
+            "border-round"
+          ],
+          "correctAnswer": "border-radius"
+        },
+        {
+          "question": "What is the purpose of the localStorage in JavaScript?",
+          "options": [
+            "To store data that expires when the browser is closed",
+            "To store data that persists even after the browser is closed",
+            "To store session data for a single page visit",
+            "To store cookies on the client side"
+          ],
+          "correctAnswer": "To store data that persists even after the browser is closed"
+        },
+        {
+          "question": "Which CSS property is used to create a transition effect?",
+          "options": ["transition", "animation", "transform", "change"],
+          "correctAnswer": "transition"
+        },
+        {
+          "question": "What is the purpose of the semantic elements in HTML5?",
+          "options": [
+            "To improve the visual appearance of the webpage",
+            "To provide meaning to the webpage structure",
+            "To add animations to the webpage",
+            "To improve the performance of the webpage"
+          ],
+          "correctAnswer": "To provide meaning to the webpage structure"
+        },
+        {
+          "question": "Which JavaScript method is used to convert a JSON string into a JavaScript object?",
+          "options": [
+            "JSON.parse()",
+            "JSON.stringify()",
+            "JSON.convert()",
+            "JSON.object()"
+          ],
+          "correctAnswer": "JSON.parse()"
+        },
+        {
+          "question": "Which CSS property is used to create a shadow effect?",
+          "options": ["box-shadow", "shadow", "drop-shadow", "text-shadow"],
+          "correctAnswer": "box-shadow"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Backend Node.js Developer Test",
+      "description": "Evaluate your Node.js and Express.js skills including APIs and DB operations.",
+      "duration": "35 min",
+      "questions": 28,
+      "skills": ["Node.js", "Express.js", "REST API", "MongoDB"],
+      "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is a core module in Node.js?",
+          "options": ["express", "mongoose", "http", "request"],
+          "correctAnswer": "http"
+        },
+        {
+          "question": "What is the purpose of the package.json file in a Node.js project?",
+          "options": [
+            "To define the project's metadata and dependencies",
+            "To store the project's source code",
+            "To configure the server settings",
+            "To define the project's routing"
+          ],
+          "correctAnswer": "To define the project's metadata and dependencies"
+        },
+        {
+          "question": "Which method is used to start a server in Express.js?",
+          "options": [
+            "server.start()",
+            "app.listen()",
+            "app.run()",
+            "express.start()"
+          ],
+          "correctAnswer": "app.listen()"
+        },
+        {
+          "question": "What is middleware in Express.js?",
+          "options": [
+            "Functions that execute during the request-response cycle",
+            "A database connection module",
+            "A way to handle errors",
+            "A template engine"
+          ],
+          "correctAnswer": "Functions that execute during the request-response cycle"
+        },
+        {
+          "question": "Which HTTP method is typically used to update a resource in a REST API?",
+          "options": ["GET", "POST", "PUT", "DELETE"],
+          "correctAnswer": "PUT"
+        },
+        {
+          "question": "What is the purpose of the 'require' function in Node.js?",
+          "options": [
+            "To import modules",
+            "To execute a function",
+            "To define a variable",
+            "To create a new module"
+          ],
+          "correctAnswer": "To import modules"
+        },
+        {
+          "question": "Which of the following is a NoSQL database?",
+          "options": ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+          "correctAnswer": "MongoDB"
+        },
+        {
+          "question": "What is the purpose of the 'next' function in Express middleware?",
+          "options": [
+            "To pass control to the next middleware function",
+            "To redirect to the next route",
+            "To end the response",
+            "To start the next request"
+          ],
+          "correctAnswer": "To pass control to the next middleware function"
+        },
+        {
+          "question": "Which method is used to send a JSON response in Express.js?",
+          "options": ["res.send()", "res.json()", "res.render()", "res.end()"],
+          "correctAnswer": "res.json()"
+        },
+        {
+          "question": "What is the purpose of the 'process.env' object in Node.js?",
+          "options": [
+            "To access environment variables",
+            "To manage processes",
+            "To handle errors",
+            "To define routes"
+          ],
+          "correctAnswer": "To access environment variables"
+        },
+        {
+          "question": "Which of the following is a popular ODM (Object Data Modeling) library for MongoDB in Node.js?",
+          "options": ["Sequelize", "Mongoose", "Prisma", "TypeORM"],
+          "correctAnswer": "Mongoose"
+        },
+        {
+          "question": "What is the purpose of the 'async/await' syntax in JavaScript?",
+          "options": [
+            "To handle asynchronous operations in a synchronous-looking way",
+            "To create asynchronous functions",
+            "To handle errors in asynchronous code",
+            "To define callbacks"
+          ],
+          "correctAnswer": "To handle asynchronous operations in a synchronous-looking way"
+        },
+        {
+          "question": "Which method is used to define a route in Express.js?",
+          "options": ["app.route()", "app.get()", "app.path()", "app.url()"],
+          "correctAnswer": "app.get()"
+        },
+        {
+          "question": "What is the purpose of the 'cors' middleware in Express.js?",
+          "options": [
+            "To enable Cross-Origin Resource Sharing",
+            "To handle errors",
+            "To parse cookies",
+            "To authenticate users"
+          ],
+          "correctAnswer": "To enable Cross-Origin Resource Sharing"
+        },
+        {
+          "question": "Which of the following is a popular authentication middleware for Node.js?",
+          "options": ["auth", "login", "passport", "authenticate"],
+          "correctAnswer": "passport"
+        },
+        {
+          "question": "What is the purpose of the 'body-parser' middleware in Express.js?",
+          "options": [
+            "To parse incoming request bodies",
+            "To validate request bodies",
+            "To format response bodies",
+            "To compress response bodies"
+          ],
+          "correctAnswer": "To parse incoming request bodies"
+        },
+        {
+          "question": "Which method is used to connect to a MongoDB database using Mongoose?",
+          "options": [
+            "mongoose.connect()",
+            "mongoose.open()",
+            "mongoose.start()",
+            "mongoose.init()"
+          ],
+          "correctAnswer": "mongoose.connect()"
+        },
+        {
+          "question": "What is the purpose of the 'Promise' object in JavaScript?",
+          "options": [
+            "To represent the eventual completion or failure of an asynchronous operation",
+            "To handle errors in asynchronous code",
+            "To create asynchronous functions",
+            "To define callbacks"
+          ],
+          "correctAnswer": "To represent the eventual completion or failure of an asynchronous operation"
+        },
+        {
+          "question": "Which method is used to define a schema in Mongoose?",
+          "options": [
+            "mongoose.Schema()",
+            "mongoose.model()",
+            "mongoose.createSchema()",
+            "mongoose.define()"
+          ],
+          "correctAnswer": "mongoose.Schema()"
+        },
+        {
+          "question": "What is the purpose of the 'npm' command in Node.js?",
+          "options": [
+            "To manage packages and dependencies",
+            "To run the application",
+            "To debug the code",
+            "To test the application"
+          ],
+          "correctAnswer": "To manage packages and dependencies"
+        },
+        {
+          "question": "Which method is used to handle errors in Express.js?",
+          "options": [
+            "app.use() with four arguments",
+            "app.error()",
+            "app.catch()",
+            "app.handle()"
+          ],
+          "correctAnswer": "app.use() with four arguments"
+        },
+        {
+          "question": "What is the purpose of the 'jsonwebtoken' library in Node.js?",
+          "options": [
+            "To create and verify JSON Web Tokens for authentication",
+            "To parse JSON data",
+            "To encrypt data",
+            "To handle JSON responses"
+          ],
+          "correctAnswer": "To create and verify JSON Web Tokens for authentication"
+        },
+        {
+          "question": "Which method is used to find documents in a MongoDB collection using Mongoose?",
+          "options": ["find()", "search()", "query()", "select()"],
+          "correctAnswer": "find()"
+        },
+        {
+          "question": "What is the purpose of the 'dotenv' library in Node.js?",
+          "options": [
+            "To load environment variables from a .env file",
+            "To create environment variables",
+            "To validate environment variables",
+            "To encrypt environment variables"
+          ],
+          "correctAnswer": "To load environment variables from a .env file"
+        },
+        {
+          "question": "Which method is used to create a new document in a MongoDB collection using Mongoose?",
+          "options": ["create()", "insert()", "add()", "new()"],
+          "correctAnswer": "create()"
+        },
+        {
+          "question": "What is the purpose of the 'bcrypt' library in Node.js?",
+          "options": [
+            "To hash passwords",
+            "To encrypt data",
+            "To handle authentication",
+            "To validate input"
+          ],
+          "correctAnswer": "To hash passwords"
+        },
+        {
+          "question": "Which method is used to update a document in a MongoDB collection using Mongoose?",
+          "options": ["updateOne()", "update()", "modify()", "change()"],
+          "correctAnswer": "updateOne()"
+        },
+        {
+          "question": "What is the purpose of the 'helmet' library in Express.js?",
+          "options": [
+            "To secure the app by setting various HTTP headers",
+            "To handle errors",
+            "To parse request bodies",
+            "To authenticate users"
+          ],
+          "correctAnswer": "To secure the app by setting various HTTP headers"
+        },
+        {
+          "question": "Which method is used to delete a document in a MongoDB collection using Mongoose?",
+          "options": ["deleteOne()", "remove()", "delete()", "destroy()"],
+          "correctAnswer": "deleteOne()"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Full Stack MERN Test",
+      "description": "Test practical MERN stack development concepts end-to-end.",
+      "duration": "40 min",
+      "questions": 30,
+      "skills": ["React", "Node.js", "MongoDB", "Security"],
+      "image": "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg",
+      "testQuestions": [
+        {
+          "question": "What does MERN stand for?",
+          "options": [
+            "MongoDB, Express, React, Node.js",
+            "MySQL, Express, React, Node.js",
+            "MongoDB, Ember, React, Node.js",
+            "MongoDB, Express, Redux, Node.js"
+          ],
+          "correctAnswer": "MongoDB, Express, React, Node.js"
+        },
+        {
+          "question": "Which of the following is used for state management in React?",
+          "options": ["Redux", "Express", "MongoDB", "Node.js"],
+          "correctAnswer": "Redux"
+        },
+        {
+          "question": "What is the purpose of the 'useState' hook in React?",
+          "options": [
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store",
+            "To fetch data from an API"
+          ],
+          "correctAnswer": "To add state to functional components"
+        },
+        {
+          "question": "Which method is used to connect to a MongoDB database using Mongoose?",
+          "options": [
+            "mongoose.connect()",
+            "mongoose.open()",
+            "mongoose.start()",
+            "mongoose.init()"
+          ],
+          "correctAnswer": "mongoose.connect()"
+        },
+        {
+          "question": "What is the purpose of the 'useEffect' hook in React?",
+          "options": [
+            "To handle side effects in functional components",
+            "To add state to functional components",
+            "To connect to a Redux store",
+            "To fetch data from an API"
+          ],
+          "correctAnswer": "To handle side effects in functional components"
+        },
+        {
+          "question": "Which HTTP method is typically used to create a new resource in a REST API?",
+          "options": ["GET", "POST", "PUT", "DELETE"],
+          "correctAnswer": "POST"
+        },
+        {
+          "question": "What is the purpose of the 'useContext' hook in React?",
+          "options": [
+            "To consume context in functional components",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To consume context in functional components"
+        },
+        {
+          "question": "Which of the following is used for authentication in a MERN application?",
+          "options": ["JWT", "HTML", "CSS", "React"],
+          "correctAnswer": "JWT"
+        },
+        {
+          "question": "What is the purpose of the 'useReducer' hook in React?",
+          "options": [
+            "To manage complex state logic in functional components",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To manage complex state logic in functional components"
+        },
+        {
+          "question": "Which method is used to define a route in Express.js?",
+          "options": ["app.get()", "app.route()", "app.path()", "app.url()"],
+          "correctAnswer": "app.get()"
+        },
+        {
+          "question": "What is the purpose of the 'useMemo' hook in React?",
+          "options": [
+            "To memoize expensive calculations",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To memoize expensive calculations"
+        },
+        {
+          "question": "Which of the following is used for password hashing in a MERN application?",
+          "options": ["bcrypt", "hashlib", "password", "crypto"],
+          "correctAnswer": "bcrypt"
+        },
+        {
+          "question": "What is the purpose of the 'useCallback' hook in React?",
+          "options": [
+            "To memoize callback functions",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To memoize callback functions"
+        },
+        {
+          "question": "Which method is used to send a JSON response in Express.js?",
+          "options": ["res.json()", "res.send()", "res.render()", "res.end()"],
+          "correctAnswer": "res.json()"
+        },
+        {
+          "question": "What is the purpose of the 'useRef' hook in React?",
+          "options": [
+            "To access DOM elements or persist values",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To access DOM elements or persist values"
+        },
+        {
+          "question": "Which of the following is used for input validation in a MERN application?",
+          "options": ["Joi", "Validate", "Input", "Form"],
+          "correctAnswer": "Joi"
+        },
+        {
+          "question": "What is the purpose of the 'Custom Hook' in React?",
+          "options": [
+            "To reuse stateful logic between components",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To reuse stateful logic between components"
+        },
+        {
+          "question": "Which method is used to find documents in a MongoDB collection using Mongoose?",
+          "options": ["find()", "search()", "query()", "select()"],
+          "correctAnswer": "find()"
+        },
+        {
+          "question": "What is the purpose of the 'Higher-Order Component (HOC)' in React?",
+          "options": [
+            "To reuse component logic",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To reuse component logic"
+        },
+        {
+          "question": "Which of the following is used for Cross-Origin Resource Sharing in a MERN application?",
+          "options": ["cors", "cors-policy", "cross-origin", "share"],
+          "correctAnswer": "cors"
+        },
+        {
+          "question": "What is the purpose of the 'Context API' in React?",
+          "options": [
+            "To pass data through the component tree without props drilling",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To pass data through the component tree without props drilling"
+        },
+        {
+          "question": "Which method is used to create a new document in a MongoDB collection using Mongoose?",
+          "options": ["create()", "insert()", "add()", "new()"],
+          "correctAnswer": "create()"
+        },
+        {
+          "question": "What is the purpose of the 'Redux' library in React?",
+          "options": [
+            "To manage application state",
+            "To handle side effects",
+            "To connect to a database",
+            "To fetch data from an API"
+          ],
+          "correctAnswer": "To manage application state"
+        },
+        {
+          "question": "Which of the following is used for environment variables in a MERN application?",
+          "options": ["dotenv", "env", "environment", "variables"],
+          "correctAnswer": "dotenv"
+        },
+        {
+          "question": "What is the purpose of the 'React Router' library?",
+          "options": [
+            "To handle routing in a React application",
+            "To manage state in a React application",
+            "To handle side effects in a React application",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To handle routing in a React application"
+        },
+        {
+          "question": "Which method is used to update a document in a MongoDB collection using Mongoose?",
+          "options": ["updateOne()", "update()", "modify()", "change()"],
+          "correctAnswer": "updateOne()"
+        },
+        {
+          "question": "What is the purpose of the 'Axios' library in a MERN application?",
+          "options": [
+            "To make HTTP requests",
+            "To manage state",
+            "To handle routing",
+            "To connect to a database"
+          ],
+          "correctAnswer": "To make HTTP requests"
+        },
+        {
+          "question": "Which of the following is used for security headers in a MERN application?",
+          "options": ["helmet", "security", "headers", "protect"],
+          "correctAnswer": "helmet"
+        },
+        {
+          "question": "What is the purpose of the 'Redux Thunk' middleware?",
+          "options": [
+            "To handle asynchronous actions in Redux",
+            "To manage state in Redux",
+            "To connect Redux to React",
+            "To debug Redux applications"
+          ],
+          "correctAnswer": "To handle asynchronous actions in Redux"
+        },
+        {
+          "question": "Which method is used to delete a document in a MongoDB collection using Mongoose?",
+          "options": ["deleteOne()", "remove()", "delete()", "destroy()"],
+          "correctAnswer": "deleteOne()"
+        },
+        {
+          "question": "What is the purpose of the 'JSON Web Token (JWT)' in a MERN application?",
+          "options": [
+            "To handle authentication and authorization",
+            "To manage state",
+            "To handle routing",
+            "To connect to a database"
+          ],
+          "correctAnswer": "To handle authentication and authorization"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "React.js Developer Test",
+      "description": "Measure your expertise in React, hooks, state management and component logic.",
+      "duration": "30 min",
+      "questions": 25,
+      "skills": ["React", "JSX", "Hooks", "Redux Basics"],
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg",
+      "testQuestions": [
+        {
+          "question": "What is JSX in React?",
+          "options": [
+            "A syntax extension for JavaScript that allows you to write HTML-like code in JavaScript",
+            "A JavaScript library for building user interfaces",
+            "A JavaScript framework for building web applications",
+            "A JavaScript compiler for optimizing code"
+          ],
+          "correctAnswer": "A syntax extension for JavaScript that allows you to write HTML-like code in JavaScript"
+        },
+        {
+          "question": "Which of the following is a built-in hook in React?",
+          "options": ["useState", "useFetch", "useRouter", "useAuth"],
+          "correctAnswer": "useState"
+        },
+        {
+          "question": "What is the purpose of the 'useState' hook in React?",
+          "options": [
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store",
+            "To fetch data from an API"
+          ],
+          "correctAnswer": "To add state to functional components"
+        },
+        {
+          "question": "Which of the following is used to handle side effects in functional components?",
+          "options": ["useEffect", "useSideEffect", "useAction", "useEvent"],
+          "correctAnswer": "useEffect"
+        },
+        {
+          "question": "What is the purpose of the 'useEffect' hook in React?",
+          "options": [
+            "To handle side effects in functional components",
+            "To add state to functional components",
+            "To connect to a Redux store",
+            "To fetch data from an API"
+          ],
+          "correctAnswer": "To handle side effects in functional components"
+        },
+        {
+          "question": "Which of the following is used to consume context in functional components?",
+          "options": ["useContext", "useConsume", "useGet", "useRead"],
+          "correctAnswer": "useContext"
+        },
+        {
+          "question": "What is the purpose of the 'useContext' hook in React?",
+          "options": [
+            "To consume context in functional components",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To consume context in functional components"
+        },
+        {
+          "question": "Which of the following is used to manage complex state logic in functional components?",
+          "options": [
+            "useReducer",
+            "useComplexState",
+            "useLogic",
+            "useManager"
+          ],
+          "correctAnswer": "useReducer"
+        },
+        {
+          "question": "What is the purpose of the 'useReducer' hook in React?",
+          "options": [
+            "To manage complex state logic in functional components",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To manage complex state logic in functional components"
+        },
+        {
+          "question": "Which of the following is used to memoize expensive calculations in functional components?",
+          "options": ["useMemo", "useCache", "useMemory", "useOptimize"],
+          "correctAnswer": "useMemo"
+        },
+        {
+          "question": "What is the purpose of the 'useMemo' hook in React?",
+          "options": [
+            "To memoize expensive calculations",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To memoize expensive calculations"
+        },
+        {
+          "question": "Which of the following is used to memoize callback functions in functional components?",
+          "options": [
+            "useCallback",
+            "useMemoCallback",
+            "useFunction",
+            "useHandler"
+          ],
+          "correctAnswer": "useCallback"
+        },
+        {
+          "question": "What is the purpose of the 'useCallback' hook in React?",
+          "options": [
+            "To memoize callback functions",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To memoize callback functions"
+        },
+        {
+          "question": "Which of the following is used to access DOM elements or persist values in functional components?",
+          "options": ["useRef", "useDOM", "useElement", "usePersist"],
+          "correctAnswer": "useRef"
+        },
+        {
+          "question": "What is the purpose of the 'useRef' hook in React?",
+          "options": [
+            "To access DOM elements or persist values",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To access DOM elements or persist values"
+        },
+        {
+          "question": "Which of the following is used to fetch data in functional components?",
+          "options": [
+            "useEffect with async function",
+            "useFetch",
+            "useData",
+            "useAPI"
+          ],
+          "correctAnswer": "useEffect with async function"
+        },
+        {
+          "question": "What is the purpose of the 'useLayoutEffect' hook in React?",
+          "options": [
+            "To perform side effects that affect the layout",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To perform side effects that affect the layout"
+        },
+        {
+          "question": "Which of the following is used to debug components in React?",
+          "options": [
+            "React DevTools",
+            "React Debugger",
+            "React Inspector",
+            "React Logger"
+          ],
+          "correctAnswer": "React DevTools"
+        },
+        {
+          "question": "What is the purpose of the 'useImperativeHandle' hook in React?",
+          "options": [
+            "To customize the instance value that is exposed to parent components",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To customize the instance value that is exposed to parent components"
+        },
+        {
+          "question": "Which of the following is used to handle routing in a React application?",
+          "options": [
+            "React Router",
+            "React Routing",
+            "React Navigation",
+            "React Path"
+          ],
+          "correctAnswer": "React Router"
+        },
+        {
+          "question": "What is the purpose of the 'useDebugValue' hook in React?",
+          "options": [
+            "To display a label for custom hooks in React DevTools",
+            "To add state to functional components",
+            "To handle side effects in functional components",
+            "To connect to a Redux store"
+          ],
+          "correctAnswer": "To display a label for custom hooks in React DevTools"
+        },
+        {
+          "question": "Which of the following is used to manage state in a React application?",
+          "options": ["Redux", "React State", "React Manager", "React Store"],
+          "correctAnswer": "Redux"
+        },
+        {
+          "question": "What is the purpose of the 'Provider' component in Redux?",
+          "options": [
+            "To make the Redux store available to the component tree",
+            "To provide state to components",
+            "To handle side effects",
+            "To connect to a database"
+          ],
+          "correctAnswer": "To make the Redux store available to the component tree"
+        },
+        {
+          "question": "Which of the following is used to connect React components to the Redux store?",
+          "options": ["connect", "bind", "attach", "link"],
+          "correctAnswer": "connect"
+        },
+        {
+          "question": "What is the purpose of the 'mapStateToProps' function in Redux?",
+          "options": [
+            "To map the Redux state to component props",
+            "To map component props to Redux state",
+            "To map actions to component props",
+            "To map component props to actions"
+          ],
+          "correctAnswer": "To map the Redux state to component props"
+        },
+        {
+          "question": "Which of the following is used to dispatch actions in Redux?",
+          "options": ["dispatch", "send", "emit", "trigger"],
+          "correctAnswer": "dispatch"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Java Programmer Test",
+      "description": "Core Java important topics covering OOP, data structures, and logic.",
+      "duration": "35 min",
+      "questions": 30,
+      "skills": ["OOP", "DSA", "Multithreading"],
+      "image": "https://images.pexels.com/photos/3861968/pexels-photo-3861968.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is not a principle of Object-Oriented Programming?",
+          "options": [
+            "Encapsulation",
+            "Inheritance",
+            "Compilation",
+            "Polymorphism"
+          ],
+          "correctAnswer": "Compilation"
+        },
+        {
+          "question": "What is the purpose of the 'static' keyword in Java?",
+          "options": [
+            "To indicate that a member belongs to the class rather than an instance",
+            "To indicate that a member is constant",
+            "To indicate that a member is private",
+            "To indicate that a member is abstract"
+          ],
+          "correctAnswer": "To indicate that a member belongs to the class rather than an instance"
+        },
+        {
+          "question": "Which of the following is used to create an object in Java?",
+          "options": ["new", "create", "make", "build"],
+          "correctAnswer": "new"
+        },
+        {
+          "question": "What is the purpose of the 'final' keyword in Java?",
+          "options": [
+            "To indicate that a variable, method, or class cannot be changed",
+            "To indicate that a variable, method, or class is static",
+            "To indicate that a variable, method, or class is private",
+            "To indicate that a variable, method, or class is abstract"
+          ],
+          "correctAnswer": "To indicate that a variable, method, or class cannot be changed"
+        },
+        {
+          "question": "Which of the following is used to inherit a class in Java?",
+          "options": ["extends", "implements", "inherits", "super"],
+          "correctAnswer": "extends"
+        },
+        {
+          "question": "What is the purpose of the 'super' keyword in Java?",
+          "options": [
+            "To refer to the parent class",
+            "To refer to the child class",
+            "To refer to the current class",
+            "To refer to the static members"
+          ],
+          "correctAnswer": "To refer to the parent class"
+        },
+        {
+          "question": "Which of the following is used to implement an interface in Java?",
+          "options": ["implements", "extends", "inherits", "super"],
+          "correctAnswer": "implements"
+        },
+        {
+          "question": "What is the purpose of the 'this' keyword in Java?",
+          "options": [
+            "To refer to the current object",
+            "To refer to the parent class",
+            "To refer to the child class",
+            "To refer to the static members"
+          ],
+          "correctAnswer": "To refer to the current object"
+        },
+        {
+          "question": "Which of the following is used to handle exceptions in Java?",
+          "options": [
+            "try-catch",
+            "try-catch-finally",
+            "try-finally",
+            "catch-finally"
+          ],
+          "correctAnswer": "try-catch"
+        },
+        {
+          "question": "What is the purpose of the 'abstract' keyword in Java?",
+          "options": [
+            "To indicate that a class or method cannot be instantiated or implemented",
+            "To indicate that a class or method is static",
+            "To indicate that a class or method is private",
+            "To indicate that a class or method is final"
+          ],
+          "correctAnswer": "To indicate that a class or method cannot be instantiated or implemented"
+        },
+        {
+          "question": "Which of the following is used to create a thread in Java?",
+          "options": [
+            "Thread class",
+            "Runnable interface",
+            "Both Thread class and Runnable interface",
+            "Process class"
+          ],
+          "correctAnswer": "Both Thread class and Runnable interface"
+        },
+        {
+          "question": "What is the purpose of the 'synchronized' keyword in Java?",
+          "options": [
+            "To control access to a shared resource by multiple threads",
+            "To synchronize the execution of a program",
+            "To synchronize the state of an object",
+            "To synchronize the methods of a class"
+          ],
+          "correctAnswer": "To control access to a shared resource by multiple threads"
+        },
+        {
+          "question": "Which of the following is used to start a thread in Java?",
+          "options": ["start()", "run()", "execute()", "begin()"],
+          "correctAnswer": "start()"
+        },
+        {
+          "question": "What is the purpose of the 'volatile' keyword in Java?",
+          "options": [
+            "To indicate that a variable may be changed by multiple threads",
+            "To indicate that a variable is constant",
+            "To indicate that a variable is private",
+            "To indicate that a variable is static"
+          ],
+          "correctAnswer": "To indicate that a variable may be changed by multiple threads"
+        },
+        {
+          "question": "Which of the following is used to wait for a thread to complete in Java?",
+          "options": ["join()", "wait()", "sleep()", "yield()"],
+          "correctAnswer": "join()"
+        },
+        {
+          "question": "What is the purpose of the 'transient' keyword in Java?",
+          "options": [
+            "To indicate that a field should not be serialized",
+            "To indicate that a field is constant",
+            "To indicate that a field is private",
+            "To indicate that a field is static"
+          ],
+          "correctAnswer": "To indicate that a field should not be serialized"
+        },
+        {
+          "question": "Which of the following is used to pause the execution of a thread in Java?",
+          "options": ["sleep()", "wait()", "join()", "yield()"],
+          "correctAnswer": "sleep()"
+        },
+        {
+          "question": "What is the purpose of the 'native' keyword in Java?",
+          "options": [
+            "To indicate that a method is implemented in native code",
+            "To indicate that a method is static",
+            "To indicate that a method is private",
+            "To indicate that a method is final"
+          ],
+          "correctAnswer": "To indicate that a method is implemented in native code"
+        },
+        {
+          "question": "Which of the following is used to yield control to another thread in Java?",
+          "options": ["yield()", "sleep()", "wait()", "join()"],
+          "correctAnswer": "yield()"
+        },
+        {
+          "question": "What is the purpose of the 'strictfp' keyword in Java?",
+          "options": [
+            "To ensure that floating-point calculations produce the same result on all platforms",
+            "To ensure that integer calculations produce the same result on all platforms",
+            "To ensure that string calculations produce the same result on all platforms",
+            "To ensure that boolean calculations produce the same result on all platforms"
+          ],
+          "correctAnswer": "To ensure that floating-point calculations produce the same result on all platforms"
+        },
+        {
+          "question": "Which of the following is a linear data structure in Java?",
+          "options": ["ArrayList", "TreeSet", "HashMap", "HashSet"],
+          "correctAnswer": "ArrayList"
+        },
+        {
+          "question": "What is the purpose of the 'instanceof' operator in Java?",
+          "options": [
+            "To check if an object is an instance of a class or interface",
+            "To create an instance of a class or interface",
+            "To compare two instances of a class or interface",
+            "To cast an instance to a class or interface"
+          ],
+          "correctAnswer": "To check if an object is an instance of a class or interface"
+        },
+        {
+          "question": "Which of the following is a non-linear data structure in Java?",
+          "options": ["TreeSet", "ArrayList", "LinkedList", "Vector"],
+          "correctAnswer": "TreeSet"
+        },
+        {
+          "question": "What is the purpose of the 'equals' method in Java?",
+          "options": [
+            "To compare two objects for equality",
+            "To compare two objects for identity",
+            "To compare two objects for hash code",
+            "To compare two objects for type"
+          ],
+          "correctAnswer": "To compare two objects for equality"
+        },
+        {
+          "question": "Which of the following is used to implement a stack in Java?",
+          "options": [
+            "Stack class",
+            "Queue interface",
+            "List interface",
+            "Set interface"
+          ],
+          "correctAnswer": "Stack class"
+        },
+        {
+          "question": "What is the purpose of the 'hashCode' method in Java?",
+          "options": [
+            "To return a hash code value for the object",
+            "To return the identity hash code of the object",
+            "To return the type of the object",
+            "To return the class of the object"
+          ],
+          "correctAnswer": "To return a hash code value for the object"
+        },
+        {
+          "question": "Which of the following is used to implement a queue in Java?",
+          "options": [
+            "Queue interface",
+            "Stack class",
+            "List interface",
+            "Set interface"
+          ],
+          "correctAnswer": "Queue interface"
+        },
+        {
+          "question": "What is the purpose of the 'toString' method in Java?",
+          "options": [
+            "To return a string representation of the object",
+            "To convert the object to a string",
+            "To parse a string to an object",
+            "To compare two objects as strings"
+          ],
+          "correctAnswer": "To return a string representation of the object"
+        },
+        {
+          "question": "Which of the following is used to implement a map in Java?",
+          "options": [
+            "Map interface",
+            "List interface",
+            "Set interface",
+            "Queue interface"
+          ],
+          "correctAnswer": "Map interface"
+        },
+        {
+          "question": "What is the purpose of the 'clone' method in Java?",
+          "options": [
+            "To create and return a copy of the object",
+            "To compare two objects",
+            "To create a new object",
+            "To destroy an object"
+          ],
+          "correctAnswer": "To create and return a copy of the object"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Python Developer Test",
+      "description": "Python scripting, OOP and automation concepts.",
+      "duration": "30 min",
+      "questions": 26,
+      "skills": ["Python", "Automation", "OOP"],
+      "image": "https://images.pexels.com/photos/3861970/pexels-photo-3861970.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is used to define a function in Python?",
+          "options": ["def", "function", "func", "define"],
+          "correctAnswer": "def"
+        },
+        {
+          "question": "What is the purpose of the '__init__' method in Python?",
+          "options": [
+            "To initialize a new instance of a class",
+            "To define a new class",
+            "To create a new object",
+            "To destroy an object"
+          ],
+          "correctAnswer": "To initialize a new instance of a class"
+        },
+        {
+          "question": "Which of the following is used to define a class in Python?",
+          "options": ["class", "Class", "def", "define"],
+          "correctAnswer": "class"
+        },
+        {
+          "question": "What is the purpose of the 'self' parameter in Python methods?",
+          "options": [
+            "To refer to the instance of the class",
+            "To refer to the class itself",
+            "To refer to the parent class",
+            "To refer to the module"
+          ],
+          "correctAnswer": "To refer to the instance of the class"
+        },
+        {
+          "question": "Which of the following is used to inherit a class in Python?",
+          "options": [
+            "class Child(Parent):",
+            "class Child inherits Parent:",
+            "class Child extends Parent:",
+            "class Child from Parent:"
+          ],
+          "correctAnswer": "class Child(Parent):"
+        },
+        {
+          "question": "What is the purpose of the '__str__' method in Python?",
+          "options": [
+            "To return a string representation of the object",
+            "To convert the object to a string",
+            "To parse a string to an object",
+            "To compare two objects as strings"
+          ],
+          "correctAnswer": "To return a string representation of the object"
+        },
+        {
+          "question": "Which of the following is used to handle exceptions in Python?",
+          "options": [
+            "try-except",
+            "try-catch",
+            "try-finally",
+            "catch-finally"
+          ],
+          "correctAnswer": "try-except"
+        },
+        {
+          "question": "What is the purpose of the '__repr__' method in Python?",
+          "options": [
+            "To return an unambiguous string representation of the object",
+            "To return a string representation of the object",
+            "To convert the object to a string",
+            "To parse a string to an object"
+          ],
+          "correctAnswer": "To return an unambiguous string representation of the object"
+        },
+        {
+          "question": "Which of the following is used to raise an exception in Python?",
+          "options": ["raise", "throw", "except", "catch"],
+          "correctAnswer": "raise"
+        },
+        {
+          "question": "What is the purpose of the '__del__' method in Python?",
+          "options": [
+            "To destroy an instance of a class",
+            "To delete a class",
+            "To remove an object",
+            "To free memory"
+          ],
+          "correctAnswer": "To destroy an instance of a class"
+        },
+        {
+          "question": "Which of the following is used to import a module in Python?",
+          "options": ["import", "include", "require", "using"],
+          "correctAnswer": "import"
+        },
+        {
+          "question": "What is the purpose of the '__eq__' method in Python?",
+          "options": [
+            "To compare two objects for equality",
+            "To compare two objects for identity",
+            "To compare two objects for hash code",
+            "To compare two objects for type"
+          ],
+          "correctAnswer": "To compare two objects for equality"
+        },
+        {
+          "question": "Which of the following is used to create a list in Python?",
+          "options": ["[]", "()", "{}", "[]()"],
+          "correctAnswer": "[]"
+        },
+        {
+          "question": "What is the purpose of the '__hash__' method in Python?",
+          "options": [
+            "To return a hash value for the object",
+            "To return the identity hash of the object",
+            "To return the type of the object",
+            "To return the class of the object"
+          ],
+          "correctAnswer": "To return a hash value for the object"
+        },
+        {
+          "question": "Which of the following is used to create a tuple in Python?",
+          "options": ["()", "[]", "{}", "()[]"],
+          "correctAnswer": "()"
+        },
+        {
+          "question": "What is the purpose of the '__lt__' method in Python?",
+          "options": [
+            "To compare two objects for less than",
+            "To compare two objects for less than or equal to",
+            "To compare two objects for greater than",
+            "To compare two objects for greater than or equal to"
+          ],
+          "correctAnswer": "To compare two objects for less than"
+        },
+        {
+          "question": "Which of the following is used to create a dictionary in Python?",
+          "options": ["{}", "[]", "()", "{}[]"],
+          "correctAnswer": "{}"
+        },
+        {
+          "question": "What is the purpose of the '__gt__' method in Python?",
+          "options": [
+            "To compare two objects for greater than",
+            "To compare two objects for greater than or equal to",
+            "To compare two objects for less than",
+            "To compare two objects for less than or equal to"
+          ],
+          "correctAnswer": "To compare two objects for greater than"
+        },
+        {
+          "question": "Which of the following is used to create a set in Python?",
+          "options": ["set()", "[]", "()", "{}"],
+          "correctAnswer": "set()"
+        },
+        {
+          "question": "What is the purpose of the '__le__' method in Python?",
+          "options": [
+            "To compare two objects for less than or equal to",
+            "To compare two objects for less than",
+            "To compare two objects for greater than",
+            "To compare two objects for greater than or equal to"
+          ],
+          "correctAnswer": "To compare two objects for less than or equal to"
+        },
+        {
+          "question": "Which of the following is used to iterate over a sequence in Python?",
+          "options": ["for", "while", "loop", "iterate"],
+          "correctAnswer": "for"
+        },
+        {
+          "question": "What is the purpose of the '__ge__' method in Python?",
+          "options": [
+            "To compare two objects for greater than or equal to",
+            "To compare two objects for greater than",
+            "To compare two objects for less than",
+            "To compare two objects for less than or equal to"
+          ],
+          "correctAnswer": "To compare two objects for greater than or equal to"
+        },
+        {
+          "question": "Which of the following is used to check a condition in Python?",
+          "options": ["if", "when", "check", "condition"],
+          "correctAnswer": "if"
+        },
+        {
+          "question": "What is the purpose of the '__ne__' method in Python?",
+          "options": [
+            "To compare two objects for inequality",
+            "To compare two objects for equality",
+            "To compare two objects for identity",
+            "To compare two objects for type"
+          ],
+          "correctAnswer": "To compare two objects for inequality"
+        },
+        {
+          "question": "Which of the following is used to execute a block of code repeatedly in Python?",
+          "options": ["while", "for", "loop", "repeat"],
+          "correctAnswer": "while"
+        },
+        {
+          "question": "What is the purpose of the '__call__' method in Python?",
+          "options": [
+            "To make an instance of a class callable",
+            "To call a method of a class",
+            "To call a function",
+            "To call a module"
+          ],
+          "correctAnswer": "To make an instance of a class callable"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Data Analyst Test",
+      "description": "Excel, SQL, and analytical problem-solving skills.",
+      "duration": "40 min",
+      "questions": 35,
+      "skills": ["SQL", "Excel", "Analytics", "Visualization"],
+      "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which SQL clause is used to filter data?",
+          "options": ["WHERE", "FILTER", "SELECT", "FROM"],
+          "correctAnswer": "WHERE"
+        },
+        {
+          "question": "Which Excel function is used to find the average of a range of cells?",
+          "options": ["AVERAGE", "SUM", "COUNT", "MEAN"],
+          "correctAnswer": "AVERAGE"
+        },
+        {
+          "question": "Which SQL statement is used to retrieve data from a database?",
+          "options": ["SELECT", "GET", "FETCH", "RETRIEVE"],
+          "correctAnswer": "SELECT"
+        },
+        {
+          "question": "Which Excel function is used to count the number of cells that contain numbers?",
+          "options": ["COUNT", "COUNTA", "COUNTBLANK", "COUNTIF"],
+          "correctAnswer": "COUNT"
+        },
+        {
+          "question": "Which SQL clause is used to sort the result set?",
+          "options": ["ORDER BY", "SORT BY", "GROUP BY", "ARRANGE BY"],
+          "correctAnswer": "ORDER BY"
+        },
+        {
+          "question": "Which Excel function is used to find the maximum value in a range of cells?",
+          "options": ["MAX", "MIN", "LARGE", "SMALL"],
+          "correctAnswer": "MAX"
+        },
+        {
+          "question": "Which SQL clause is used to group rows that have the same values into summary rows?",
+          "options": ["GROUP BY", "SUMMARIZE BY", "ARRANGE BY", "CLUSTER BY"],
+          "correctAnswer": "GROUP BY"
+        },
+        {
+          "question": "Which Excel function is used to find the minimum value in a range of cells?",
+          "options": ["MIN", "MAX", "LARGE", "SMALL"],
+          "correctAnswer": "MIN"
+        },
+        {
+          "question": "Which SQL clause is used to filter groups based on a condition?",
+          "options": ["HAVING", "WHERE", "FILTER", "GROUP BY"],
+          "correctAnswer": "HAVING"
+        },
+        {
+          "question": "Which Excel function is used to look up a value in a table?",
+          "options": ["VLOOKUP", "LOOKUP", "SEARCH", "FIND"],
+          "correctAnswer": "VLOOKUP"
+        },
+        {
+          "question": "Which SQL operator is used to match a pattern?",
+          "options": ["LIKE", "MATCH", "PATTERN", "SIMILAR TO"],
+          "correctAnswer": "LIKE"
+        },
+        {
+          "question": "Which Excel function is used to join two or more text strings into one string?",
+          "options": ["CONCATENATE", "JOIN", "MERGE", "COMBINE"],
+          "correctAnswer": "CONCATENATE"
+        },
+        {
+          "question": "Which SQL operator is used to specify multiple possible values for a column?",
+          "options": ["IN", "OR", "ANY", "SOME"],
+          "correctAnswer": "IN"
+        },
+        {
+          "question": "Which Excel function is used to extract a substring from a text string?",
+          "options": ["MID", "SUBSTRING", "EXTRACT", "PART"],
+          "correctAnswer": "MID"
+        },
+        {
+          "question": "Which SQL operator is used to search for a specified pattern in a column?",
+          "options": ["LIKE", "MATCH", "PATTERN", "SIMILAR TO"],
+          "correctAnswer": "LIKE"
+        },
+        {
+          "question": "Which Excel function is used to find the length of a text string?",
+          "options": ["LEN", "LENGTH", "SIZE", "COUNT"],
+          "correctAnswer": "LEN"
+        },
+        {
+          "question": "Which SQL operator is used to combine the result set of two or more SELECT statements?",
+          "options": ["UNION", "JOIN", "COMBINE", "MERGE"],
+          "correctAnswer": "UNION"
+        },
+        {
+          "question": "Which Excel function is used to round a number to a specified number of digits?",
+          "options": ["ROUND", "FLOOR", "CEILING", "TRUNC"],
+          "correctAnswer": "ROUND"
+        },
+        {
+          "question": "Which SQL operator is used to return all rows when there is at least one match in both tables?",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL OUTER JOIN"
+          ],
+          "correctAnswer": "INNER JOIN"
+        },
+        {
+          "question": "Which Excel function is used to return the absolute value of a number?",
+          "options": ["ABS", "ABSOLUTE", "POSITIVE", "MAGNITUDE"],
+          "correctAnswer": "ABS"
+        },
+        {
+          "question": "Which SQL operator is used to return all rows from the left table, and the matched rows from the right table?",
+          "options": [
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "INNER JOIN",
+            "FULL OUTER JOIN"
+          ],
+          "correctAnswer": "LEFT JOIN"
+        },
+        {
+          "question": "Which Excel function is used to calculate the interest payment for a given period?",
+          "options": ["IPMT", "PMT", "PPMT", "NPER"],
+          "correctAnswer": "IPMT"
+        },
+        {
+          "question": "Which SQL operator is used to return all rows from the right table, and the matched rows from the left table?",
+          "options": [
+            "RIGHT JOIN",
+            "LEFT JOIN",
+            "INNER JOIN",
+            "FULL OUTER JOIN"
+          ],
+          "correctAnswer": "RIGHT JOIN"
+        },
+        {
+          "question": "Which Excel function is used to calculate the principal payment for a given period?",
+          "options": ["PPMT", "PMT", "IPMT", "NPER"],
+          "correctAnswer": "PPMT"
+        },
+        {
+          "question": "Which SQL operator is used to return all rows when there is a match in either the left or the right table?",
+          "options": [
+            "FULL OUTER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "INNER JOIN"
+          ],
+          "correctAnswer": "FULL OUTER JOIN"
+        },
+        {
+          "question": "Which Excel function is used to calculate the payment for a loan based on constant payments and a constant interest rate?",
+          "options": ["PMT", "IPMT", "PPMT", "NPER"],
+          "correctAnswer": "PMT"
+        },
+        {
+          "question": "Which SQL function is used to count the number of rows in a table?",
+          "options": ["COUNT", "SUM", "AVG", "MAX"],
+          "correctAnswer": "COUNT"
+        },
+        {
+          "question": "Which Excel function is used to calculate the number of periods for an investment?",
+          "options": ["NPER", "PMT", "IPMT", "PPMT"],
+          "correctAnswer": "NPER"
+        },
+        {
+          "question": "Which SQL function is used to calculate the sum of a set of values?",
+          "options": ["SUM", "COUNT", "AVG", "MAX"],
+          "correctAnswer": "SUM"
+        },
+        {
+          "question": "Which Excel function is used to calculate the internal rate of return for a series of cash flows?",
+          "options": ["IRR", "NPV", "PMT", "NPER"],
+          "correctAnswer": "IRR"
+        },
+        {
+          "question": "Which SQL function is used to calculate the average of a set of values?",
+          "options": ["AVG", "SUM", "COUNT", "MAX"],
+          "correctAnswer": "AVG"
+        },
+        {
+          "question": "Which Excel function is used to calculate the net present value of an investment?",
+          "options": ["NPV", "IRR", "PMT", "NPER"],
+          "correctAnswer": "NPV"
+        },
+        {
+          "question": "Which SQL function is used to find the maximum value in a set of values?",
+          "options": ["MAX", "MIN", "SUM", "COUNT"],
+          "correctAnswer": "MAX"
+        },
+        {
+          "question": "Which Excel function is used to calculate the future value of an investment?",
+          "options": ["FV", "PV", "NPV", "IRR"],
+          "correctAnswer": "FV"
+        },
+        {
+          "question": "Which SQL function is used to find the minimum value in a set of values?",
+          "options": ["MIN", "MAX", "SUM", "COUNT"],
+          "correctAnswer": "MIN"
+        },
+        {
+          "question": "Which Excel function is used to calculate the present value of an investment?",
+          "options": ["PV", "FV", "NPV", "IRR"],
+          "correctAnswer": "PV"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Database MySQL Test",
+      "description": "Test your database knowledge including joins, queries, and indexing.",
+      "duration": "25 min",
+      "questions": 22,
+      "skills": ["SQL", "Database Design", "Optimization"],
+      "image": "https://images.pexels.com/photos/3861967/pexels-photo-3861967.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which SQL statement is used to retrieve data from a database?",
+          "options": ["SELECT", "GET", "FETCH", "RETRIEVE"],
+          "correctAnswer": "SELECT"
+        },
+        {
+          "question": "Which type of join returns all rows when there is at least one match in both tables?",
+          "options": [
+            "INNER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "FULL OUTER JOIN"
+          ],
+          "correctAnswer": "INNER JOIN"
+        },
+        {
+          "question": "Which SQL statement is used to update data in a database?",
+          "options": ["UPDATE", "MODIFY", "CHANGE", "ALTER"],
+          "correctAnswer": "UPDATE"
+        },
+        {
+          "question": "Which type of join returns all rows from the left table, and the matched rows from the right table?",
+          "options": [
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "INNER JOIN",
+            "FULL OUTER JOIN"
+          ],
+          "correctAnswer": "LEFT JOIN"
+        },
+        {
+          "question": "Which SQL statement is used to delete data from a database?",
+          "options": ["DELETE", "REMOVE", "DROP", "TRUNCATE"],
+          "correctAnswer": "DELETE"
+        },
+        {
+          "question": "Which type of join returns all rows from the right table, and the matched rows from the left table?",
+          "options": [
+            "RIGHT JOIN",
+            "LEFT JOIN",
+            "INNER JOIN",
+            "FULL OUTER JOIN"
+          ],
+          "correctAnswer": "RIGHT JOIN"
+        },
+        {
+          "question": "Which SQL statement is used to insert new data into a database?",
+          "options": ["INSERT INTO", "ADD INTO", "PUT INTO", "CREATE INTO"],
+          "correctAnswer": "INSERT INTO"
+        },
+        {
+          "question": "Which type of join returns all rows when there is a match in either the left or the right table?",
+          "options": [
+            "FULL OUTER JOIN",
+            "LEFT JOIN",
+            "RIGHT JOIN",
+            "INNER JOIN"
+          ],
+          "correctAnswer": "FULL OUTER JOIN"
+        },
+        {
+          "question": "Which SQL statement is used to create a new table in a database?",
+          "options": ["CREATE TABLE", "NEW TABLE", "MAKE TABLE", "BUILD TABLE"],
+          "correctAnswer": "CREATE TABLE"
+        },
+        {
+          "question": "Which SQL clause is used to filter data?",
+          "options": ["WHERE", "FILTER", "SELECT", "FROM"],
+          "correctAnswer": "WHERE"
+        },
+        {
+          "question": "Which SQL statement is used to delete a table in a database?",
+          "options": [
+            "DROP TABLE",
+            "DELETE TABLE",
+            "REMOVE TABLE",
+            "DESTROY TABLE"
+          ],
+          "correctAnswer": "DROP TABLE"
+        },
+        {
+          "question": "Which SQL clause is used to sort the result set?",
+          "options": ["ORDER BY", "SORT BY", "GROUP BY", "ARRANGE BY"],
+          "correctAnswer": "ORDER BY"
+        },
+        {
+          "question": "Which SQL statement is used to modify an existing table in a database?",
+          "options": [
+            "ALTER TABLE",
+            "MODIFY TABLE",
+            "CHANGE TABLE",
+            "UPDATE TABLE"
+          ],
+          "correctAnswer": "ALTER TABLE"
+        },
+        {
+          "question": "Which SQL clause is used to group rows that have the same values into summary rows?",
+          "options": ["GROUP BY", "SUMMARIZE BY", "ARRANGE BY", "CLUSTER BY"],
+          "correctAnswer": "GROUP BY"
+        },
+        {
+          "question": "Which SQL statement is used to create a new database?",
+          "options": [
+            "CREATE DATABASE",
+            "NEW DATABASE",
+            "MAKE DATABASE",
+            "BUILD DATABASE"
+          ],
+          "correctAnswer": "CREATE DATABASE"
+        },
+        {
+          "question": "Which SQL clause is used to filter groups based on a condition?",
+          "options": ["HAVING", "WHERE", "FILTER", "GROUP BY"],
+          "correctAnswer": "HAVING"
+        },
+        {
+          "question": "Which SQL statement is used to delete a database?",
+          "options": [
+            "DROP DATABASE",
+            "DELETE DATABASE",
+            "REMOVE DATABASE",
+            "DESTROY DATABASE"
+          ],
+          "correctAnswer": "DROP DATABASE"
+        },
+        {
+          "question": "Which SQL operator is used to match a pattern?",
+          "options": ["LIKE", "MATCH", "PATTERN", "SIMILAR TO"],
+          "correctAnswer": "LIKE"
+        },
+        {
+          "question": "Which type of index is used to enforce uniqueness in a column?",
+          "options": [
+            "UNIQUE INDEX",
+            "PRIMARY KEY",
+            "FOREIGN KEY",
+            "CHECK CONSTRAINT"
+          ],
+          "correctAnswer": "UNIQUE INDEX"
+        },
+        {
+          "question": "Which SQL operator is used to specify multiple possible values for a column?",
+          "options": ["IN", "OR", "ANY", "SOME"],
+          "correctAnswer": "IN"
+        },
+        {
+          "question": "Which type of index is used to improve the performance of queries that use range conditions?",
+          "options": [
+            "B-TREE INDEX",
+            "HASH INDEX",
+            "FULL-TEXT INDEX",
+            "SPATIAL INDEX"
+          ],
+          "correctAnswer": "B-TREE INDEX"
+        },
+        {
+          "question": "Which SQL operator is used to search for a specified pattern in a column?",
+          "options": ["LIKE", "MATCH", "PATTERN", "SIMILAR TO"],
+          "correctAnswer": "LIKE"
+        },
+        {
+          "question": "Which type of index is used to improve the performance of queries that use equality conditions?",
+          "options": [
+            "HASH INDEX",
+            "B-TREE INDEX",
+            "FULL-TEXT INDEX",
+            "SPATIAL INDEX"
+          ],
+          "correctAnswer": "HASH INDEX"
+        },
+        {
+          "question": "Which SQL operator is used to combine the result set of two or more SELECT statements?",
+          "options": ["UNION", "JOIN", "COMBINE", "MERGE"],
+          "correctAnswer": "UNION"
+        },
+        {
+          "question": "Which type of index is used to improve the performance of full-text searches?",
+          "options": [
+            "FULL-TEXT INDEX",
+            "B-TREE INDEX",
+            "HASH INDEX",
+            "SPATIAL INDEX"
+          ],
+          "correctAnswer": "FULL-TEXT INDEX"
+        },
+        {
+          "question": "Which SQL function is used to count the number of rows in a table?",
+          "options": ["COUNT", "SUM", "AVG", "MAX"],
+          "correctAnswer": "COUNT"
+        },
+        {
+          "question": "Which type of index is used to improve the performance of spatial queries?",
+          "options": [
+            "SPATIAL INDEX",
+            "B-TREE INDEX",
+            "HASH INDEX",
+            "FULL-TEXT INDEX"
+          ],
+          "correctAnswer": "SPATIAL INDEX"
+        },
+        {
+          "question": "Which SQL function is used to calculate the sum of a set of values?",
+          "options": ["SUM", "COUNT", "AVG", "MAX"],
+          "correctAnswer": "SUM"
+        },
+        {
+          "question": "Which type of constraint is used to enforce referential integrity between tables?",
+          "options": ["FOREIGN KEY", "PRIMARY KEY", "UNIQUE", "CHECK"],
+          "correctAnswer": "FOREIGN KEY"
+        },
+        {
+          "question": "Which SQL function is used to calculate the average of a set of values?",
+          "options": ["AVG", "SUM", "COUNT", "MAX"],
+          "correctAnswer": "AVG"
+        },
+        {
+          "question": "Which type of constraint is used to enforce uniqueness in a column?",
+          "options": ["UNIQUE", "PRIMARY KEY", "FOREIGN KEY", "CHECK"],
+          "correctAnswer": "UNIQUE"
+        },
+        {
+          "question": "Which SQL function is used to find the maximum value in a set of values?",
+          "options": ["MAX", "MIN", "SUM", "COUNT"],
+          "correctAnswer": "MAX"
+        },
+        {
+          "question": "Which type of constraint is used to enforce a condition on a column?",
+          "options": ["CHECK", "PRIMARY KEY", "FOREIGN KEY", "UNIQUE"],
+          "correctAnswer": "CHECK"
+        },
+        {
+          "question": "Which SQL function is used to find the minimum value in a set of values?",
+          "options": ["MIN", "MAX", "SUM", "COUNT"],
+          "correctAnswer": "MIN"
+        },
+        {
+          "question": "Which type of constraint is used to uniquely identify each row in a table?",
+          "options": ["PRIMARY KEY", "FOREIGN KEY", "UNIQUE", "CHECK"],
+          "correctAnswer": "PRIMARY KEY"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Cyber Security Basics Test",
+      "description": "Understand security concepts, attacks and protection techniques.",
+      "duration": "35 min",
+      "questions": 30,
+      "skills": ["Networking", "Ethical Hacking", "Security Tools"],
+      "image": "https://images.pexels.com/photos/5380690/pexels-photo-5380690.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is a type of malware that encrypts a victim's files and demands payment for decryption?",
+          "options": ["Ransomware", "Spyware", "Adware", "Trojan"],
+          "correctAnswer": "Ransomware"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure communication over a computer network?",
+          "options": ["HTTPS", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "HTTPS"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves sending fraudulent emails to trick individuals into revealing sensitive information?",
+          "options": ["Phishing", "Spear Phishing", "Whaling", "Vishing"],
+          "correctAnswer": "Phishing"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure remote login?",
+          "options": ["SSH", "Telnet", "FTP", "HTTP"],
+          "correctAnswer": "SSH"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves intercepting communication between two parties to steal information?",
+          "options": [
+            "Man-in-the-Middle",
+            "Denial of Service",
+            "SQL Injection",
+            "Cross-Site Scripting"
+          ],
+          "correctAnswer": "Man-in-the-Middle"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure file transfer?",
+          "options": ["SFTP", "FTP", "HTTP", "SMTP"],
+          "correctAnswer": "SFTP"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves overwhelming a server with traffic to make it unavailable?",
+          "options": [
+            "Denial of Service",
+            "Man-in-the-Middle",
+            "SQL Injection",
+            "Cross-Site Scripting"
+          ],
+          "correctAnswer": "Denial of Service"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure email communication?",
+          "options": ["SMTPS", "SMTP", "POP3", "IMAP"],
+          "correctAnswer": "SMTPS"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves inserting malicious code into a SQL query?",
+          "options": [
+            "SQL Injection",
+            "Cross-Site Scripting",
+            "Man-in-the-Middle",
+            "Denial of Service"
+          ],
+          "correctAnswer": "SQL Injection"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure web browsing?",
+          "options": ["HTTPS", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "HTTPS"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves injecting malicious scripts into web pages viewed by other users?",
+          "options": [
+            "Cross-Site Scripting",
+            "SQL Injection",
+            "Man-in-the-Middle",
+            "Denial of Service"
+          ],
+          "correctAnswer": "Cross-Site Scripting"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure database connections?",
+          "options": ["SSL/TLS", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "SSL/TLS"
+        },
+        {
+          "question": "Which of the following is a type of malware that records keystrokes to steal sensitive information?",
+          "options": ["Keylogger", "Spyware", "Adware", "Trojan"],
+          "correctAnswer": "Keylogger"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure virtual private networks?",
+          "options": ["IPSec", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "IPSec"
+        },
+        {
+          "question": "Which of the following is a type of malware that disguises itself as legitimate software?",
+          "options": ["Trojan", "Spyware", "Adware", "Ransomware"],
+          "correctAnswer": "Trojan"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure domain name system (DNS) queries?",
+          "options": ["DNS over TLS", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "DNS over TLS"
+        },
+        {
+          "question": "Which of the following is a type of malware that displays unwanted advertisements?",
+          "options": ["Adware", "Spyware", "Keylogger", "Trojan"],
+          "correctAnswer": "Adware"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure message authentication?",
+          "options": ["Kerberos", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "Kerberos"
+        },
+        {
+          "question": "Which of the following is a type of malware that monitors user activity without their knowledge?",
+          "options": ["Spyware", "Adware", "Keylogger", "Trojan"],
+          "correctAnswer": "Spyware"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure certificate management?",
+          "options": ["PKI", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "PKI"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves tricking a user into revealing sensitive information by impersonating a trustworthy entity?",
+          "options": [
+            "Social Engineering",
+            "Phishing",
+            "Spoofing",
+            "Impersonation"
+          ],
+          "correctAnswer": "Social Engineering"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure time synchronization?",
+          "options": ["NTP Authentication", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "NTP Authentication"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves exploiting vulnerabilities in software to gain unauthorized access?",
+          "options": ["Exploit", "Phishing", "Spoofing", "Impersonation"],
+          "correctAnswer": "Exploit"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure directory services?",
+          "options": ["LDAPS", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "LDAPS"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves flooding a network with traffic to disrupt normal operations?",
+          "options": [
+            "Distributed Denial of Service",
+            "Man-in-the-Middle",
+            "SQL Injection",
+            "Cross-Site Scripting"
+          ],
+          "correctAnswer": "Distributed Denial of Service"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure remote procedure calls?",
+          "options": ["RPC over TLS", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "RPC over TLS"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves stealing sensitive information by intercepting network traffic?",
+          "options": ["Eavesdropping", "Phishing", "Spoofing", "Impersonation"],
+          "correctAnswer": "Eavesdropping"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure file sharing?",
+          "options": ["SMB over TLS", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "SMB over TLS"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves modifying data in transit to alter its meaning?",
+          "options": [
+            "Data Manipulation",
+            "Phishing",
+            "Spoofing",
+            "Impersonation"
+          ],
+          "correctAnswer": "Data Manipulation"
+        },
+        {
+          "question": "Which of the following is a network protocol used for secure voice communication?",
+          "options": ["SRTP", "HTTP", "FTP", "SMTP"],
+          "correctAnswer": "SRTP"
+        },
+        {
+          "question": "Which of the following is a type of attack that involves exploiting human psychology to gain unauthorized access?",
+          "options": [
+            "Social Engineering",
+            "Phishing",
+            "Spoofing",
+            "Impersonation"
+          ],
+          "correctAnswer": "Social Engineering"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "DevOps Engineer Test",
+      "description": "Git, Docker, CI/CD pipeline fundamentals.",
+      "duration": "40 min",
+      "questions": 30,
+      "skills": ["Git", "Docker", "CI/CD"],
+      "image": "https://images.pexels.com/photos/3861971/pexels-photo-3861971.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which Git command is used to create a new repository?",
+          "options": ["git init", "git create", "git new", "git start"],
+          "correctAnswer": "git init"
+        },
+        {
+          "question": "Which Docker command is used to build an image from a Dockerfile?",
+          "options": [
+            "docker build",
+            "docker create",
+            "docker make",
+            "docker construct"
+          ],
+          "correctAnswer": "docker build"
+        },
+        {
+          "question": "Which of the following is a continuous integration tool?",
+          "options": ["Jenkins", "Docker", "Git", "Kubernetes"],
+          "correctAnswer": "Jenkins"
+        },
+        {
+          "question": "Which Git command is used to add changes to the staging area?",
+          "options": ["git add", "git stage", "git commit", "git push"],
+          "correctAnswer": "git add"
+        },
+        {
+          "question": "Which Docker command is used to run a container?",
+          "options": [
+            "docker run",
+            "docker start",
+            "docker execute",
+            "docker launch"
+          ],
+          "correctAnswer": "docker run"
+        },
+        {
+          "question": "Which of the following is a continuous deployment tool?",
+          "options": ["Spinnaker", "Docker", "Git", "Jenkins"],
+          "correctAnswer": "Spinnaker"
+        },
+        {
+          "question": "Which Git command is used to commit changes to the repository?",
+          "options": ["git commit", "git save", "git store", "git submit"],
+          "correctAnswer": "git commit"
+        },
+        {
+          "question": "Which Docker command is used to list all running containers?",
+          "options": [
+            "docker ps",
+            "docker list",
+            "docker show",
+            "docker containers"
+          ],
+          "correctAnswer": "docker ps"
+        },
+        {
+          "question": "Which of the following is a configuration management tool?",
+          "options": ["Ansible", "Docker", "Git", "Jenkins"],
+          "correctAnswer": "Ansible"
+        },
+        {
+          "question": "Which Git command is used to push changes to a remote repository?",
+          "options": ["git push", "git send", "git upload", "git submit"],
+          "correctAnswer": "git push"
+        },
+        {
+          "question": "Which Docker command is used to stop a running container?",
+          "options": [
+            "docker stop",
+            "docker halt",
+            "docker kill",
+            "docker terminate"
+          ],
+          "correctAnswer": "docker stop"
+        },
+        {
+          "question": "Which of the following is a container orchestration tool?",
+          "options": ["Kubernetes", "Docker", "Git", "Jenkins"],
+          "correctAnswer": "Kubernetes"
+        },
+        {
+          "question": "Which Git command is used to pull changes from a remote repository?",
+          "options": ["git pull", "git get", "git download", "git fetch"],
+          "correctAnswer": "git pull"
+        },
+        {
+          "question": "Which Docker command is used to remove a container?",
+          "options": [
+            "docker rm",
+            "docker delete",
+            "docker remove",
+            "docker destroy"
+          ],
+          "correctAnswer": "docker rm"
+        },
+        {
+          "question": "Which of the following is a infrastructure as code tool?",
+          "options": ["Terraform", "Docker", "Git", "Jenkins"],
+          "correctAnswer": "Terraform"
+        },
+        {
+          "question": "Which Git command is used to create a new branch?",
+          "options": [
+            "git branch",
+            "git create-branch",
+            "git new-branch",
+            "git make-branch"
+          ],
+          "correctAnswer": "git branch"
+        },
+        {
+          "question": "Which Docker command is used to remove an image?",
+          "options": [
+            "docker rmi",
+            "docker delete-image",
+            "docker remove-image",
+            "docker destroy-image"
+          ],
+          "correctAnswer": "docker rmi"
+        },
+        {
+          "question": "Which of the following is a monitoring tool?",
+          "options": ["Prometheus", "Docker", "Git", "Jenkins"],
+          "correctAnswer": "Prometheus"
+        },
+        {
+          "question": "Which Git command is used to switch to a different branch?",
+          "options": ["git checkout", "git switch", "git change", "git go"],
+          "correctAnswer": "git checkout"
+        },
+        {
+          "question": "Which Docker command is used to pull an image from a registry?",
+          "options": [
+            "docker pull",
+            "docker get",
+            "docker download",
+            "docker fetch"
+          ],
+          "correctAnswer": "docker pull"
+        },
+        {
+          "question": "Which of the following is a log aggregation tool?",
+          "options": ["ELK Stack", "Docker", "Git", "Jenkins"],
+          "correctAnswer": "ELK Stack"
+        },
+        {
+          "question": "Which Git command is used to merge branches?",
+          "options": ["git merge", "git combine", "git join", "git integrate"],
+          "correctAnswer": "git merge"
+        },
+        {
+          "question": "Which Docker command is used to push an image to a registry?",
+          "options": [
+            "docker push",
+            "docker send",
+            "docker upload",
+            "docker submit"
+          ],
+          "correctAnswer": "docker push"
+        },
+        {
+          "question": "Which of the following is a service mesh tool?",
+          "options": ["Istio", "Docker", "Git", "Jenkins"],
+          "correctAnswer": "Istio"
+        },
+        {
+          "question": "Which Git command is used to view the commit history?",
+          "options": [
+            "git log",
+            "git history",
+            "git commits",
+            "git show-commits"
+          ],
+          "correctAnswer": "git log"
+        },
+        {
+          "question": "Which Docker command is used to execute a command inside a running container?",
+          "options": [
+            "docker exec",
+            "docker run-command",
+            "docker execute",
+            "docker command"
+          ],
+          "correctAnswer": "docker exec"
+        },
+        {
+          "question": "Which of the following is a serverless computing platform?",
+          "options": ["AWS Lambda", "Docker", "Git", "Jenkins"],
+          "correctAnswer": "AWS Lambda"
+        },
+        {
+          "question": "Which Git command is used to resolve merge conflicts?",
+          "options": [
+            "git merge-tool",
+            "git resolve",
+            "git fix",
+            "git conflict"
+          ],
+          "correctAnswer": "git merge-tool"
+        },
+        {
+          "question": "Which Docker command is used to view the logs of a container?",
+          "options": [
+            "docker logs",
+            "docker log",
+            "docker show-logs",
+            "docker view-logs"
+          ],
+          "correctAnswer": "docker logs"
+        },
+        {
+          "question": "Which of the following is a continuous delivery tool?",
+          "options": ["GoCD", "Docker", "Git", "Jenkins"],
+          "correctAnswer": "GoCD"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "UI/UX Design Fundamental Test",
+      "description": "Evaluate visual design rules, layouts, and user experience.",
+      "duration": "25 min",
+      "questions": 20,
+      "skills": ["Wireframe", "Design System", "User Flow"],
+      "image": "https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg",
+      "testQuestions": [
+        {
+          "question": "What is a wireframe in UI/UX design?",
+          "options": [
+            "A low-fidelity visual guide that represents the skeletal framework of a website",
+            "A high-fidelity visual representation of a website",
+            "A detailed color palette for a website",
+            "A collection of icons for a website"
+          ],
+          "correctAnswer": "A low-fidelity visual guide that represents the skeletal framework of a website"
+        },
+        {
+          "question": "Which of the following is a principle of good visual design?",
+          "options": ["Balance", "Complexity", "Inconsistency", "Randomness"],
+          "correctAnswer": "Balance"
+        },
+        {
+          "question": "What is a user flow in UX design?",
+          "options": [
+            "The path taken by a typical user to complete a task",
+            "The visual appearance of a website",
+            "The color scheme of a website",
+            "The typography of a website"
+          ],
+          "correctAnswer": "The path taken by a typical user to complete a task"
+        },
+        {
+          "question": "Which of the following is a component of a design system?",
+          "options": ["Buttons", "Images", "Videos", "Animations"],
+          "correctAnswer": "Buttons"
+        },
+        {
+          "question": "What is the purpose of a mockup in UI design?",
+          "options": [
+            "To provide a high-fidelity visual representation of the design",
+            "To create a low-fidelity sketch of the design",
+            "To define the functionality of the design",
+            "To test the usability of the design"
+          ],
+          "correctAnswer": "To provide a high-fidelity visual representation of the design"
+        },
+        {
+          "question": "Which of the following is a principle of good UX design?",
+          "options": [
+            "User-centeredness",
+            "Designer-centeredness",
+            "Business-centeredness",
+            "Technology-centeredness"
+          ],
+          "correctAnswer": "User-centeredness"
+        },
+        {
+          "question": "What is a prototype in UI/UX design?",
+          "options": [
+            "A sample or simulation of the final product",
+            "A detailed specification of the product",
+            "A marketing description of the product",
+            "A technical implementation of the product"
+          ],
+          "correctAnswer": "A sample or simulation of the final product"
+        },
+        {
+          "question": "Which of the following is a component of a design system?",
+          "options": ["Color palette", "Images", "Videos", "Animations"],
+          "correctAnswer": "Color palette"
+        },
+        {
+          "question": "What is the purpose of user research in UX design?",
+          "options": [
+            "To understand the needs, behaviors, and motivations of users",
+            "To create visually appealing designs",
+            "To develop technical specifications",
+            "To market the product"
+          ],
+          "correctAnswer": "To understand the needs, behaviors, and motivations of users"
+        },
+        {
+          "question": "Which of the following is a principle of good visual design?",
+          "options": ["Contrast", "Uniformity", "Monotony", "Confusion"],
+          "correctAnswer": "Contrast"
+        },
+        {
+          "question": "What is a user persona in UX design?",
+          "options": [
+            "A fictional character that represents a target user",
+            "A real user of the product",
+            "A designer of the product",
+            "A developer of the product"
+          ],
+          "correctAnswer": "A fictional character that represents a target user"
+        },
+        {
+          "question": "Which of the following is a component of a design system?",
+          "options": ["Typography", "Images", "Videos", "Animations"],
+          "correctAnswer": "Typography"
+        },
+        {
+          "question": "What is the purpose of usability testing in UX design?",
+          "options": [
+            "To evaluate the product by testing it with users",
+            "To create visually appealing designs",
+            "To develop technical specifications",
+            "To market the product"
+          ],
+          "correctAnswer": "To evaluate the product by testing it with users"
+        },
+        {
+          "question": "Which of the following is a principle of good visual design?",
+          "options": ["Hierarchy", "Flatness", "Disorder", "Chaos"],
+          "correctAnswer": "Hierarchy"
+        },
+        {
+          "question": "What is information architecture in UX design?",
+          "options": [
+            "The organization and labeling of content in a product",
+            "The visual appearance of a product",
+            "The technical implementation of a product",
+            "The marketing strategy for a product"
+          ],
+          "correctAnswer": "The organization and labeling of content in a product"
+        },
+        {
+          "question": "Which of the following is a component of a design system?",
+          "options": ["Spacing", "Images", "Videos", "Animations"],
+          "correctAnswer": "Spacing"
+        },
+        {
+          "question": "What is the purpose of a user journey map in UX design?",
+          "options": [
+            "To visualize the user's experience with a product over time",
+            "To create visually appealing designs",
+            "To develop technical specifications",
+            "To market the product"
+          ],
+          "correctAnswer": "To visualize the user's experience with a product over time"
+        },
+        {
+          "question": "Which of the following is a principle of good visual design?",
+          "options": ["Repetition", "Randomness", "Inconsistency", "Variety"],
+          "correctAnswer": "Repetition"
+        },
+        {
+          "question": "What is a heuristic evaluation in UX design?",
+          "options": [
+            "A usability inspection method to find usability problems",
+            "A visual design technique",
+            "A technical implementation method",
+            "A marketing strategy"
+          ],
+          "correctAnswer": "A usability inspection method to find usability problems"
+        },
+        {
+          "question": "Which of the following is a component of a design system?",
+          "options": ["Grid system", "Images", "Videos", "Animations"],
+          "correctAnswer": "Grid system"
+        }
+      ]
+    },
+
+    {
+      "id": 12,
+      "title": "Android Developer Test",
+      "description": "Kotlin basics, Android Studio and app lifecycle.",
+      "duration": "35 min",
+      "questions": 28,
+      "skills": ["Android", "Kotlin", "UI Components"],
+      "image": "https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is the official programming language for Android development?",
+          "options": ["Kotlin", "Java", "Swift", "Python"],
+          "correctAnswer": "Kotlin"
+        },
+        {
+          "question": "What is the purpose of the Android Manifest file?",
+          "options": [
+            "To declare the app's components, permissions, and hardware requirements",
+            "To define the app's visual layout",
+            "To store the app's data",
+            "To handle the app's business logic"
+          ],
+          "correctAnswer": "To declare the app's components, permissions, and hardware requirements"
+        },
+        {
+          "question": "Which of the following is a layout component in Android?",
+          "options": ["LinearLayout", "Button", "TextView", "ImageView"],
+          "correctAnswer": "LinearLayout"
+        },
+        {
+          "question": "What is the purpose of the onCreate() method in an Android Activity?",
+          "options": [
+            "To initialize the activity",
+            "To destroy the activity",
+            "To pause the activity",
+            "To resume the activity"
+          ],
+          "correctAnswer": "To initialize the activity"
+        },
+        {
+          "question": "Which of the following is a UI component in Android?",
+          "options": [
+            "Button",
+            "LinearLayout",
+            "RelativeLayout",
+            "ConstraintLayout"
+          ],
+          "correctAnswer": "Button"
+        },
+        {
+          "question": "What is the purpose of the onStart() method in an Android Activity?",
+          "options": [
+            "To prepare the activity to become visible",
+            "To initialize the activity",
+            "To pause the activity",
+            "To resume the activity"
+          ],
+          "correctAnswer": "To prepare the activity to become visible"
+        },
+        {
+          "question": "Which of the following is a layout component in Android?",
+          "options": ["RelativeLayout", "Button", "TextView", "ImageView"],
+          "correctAnswer": "RelativeLayout"
+        },
+        {
+          "question": "What is the purpose of the onResume() method in an Android Activity?",
+          "options": [
+            "To make the activity interactive",
+            "To initialize the activity",
+            "To pause the activity",
+            "To stop the activity"
+          ],
+          "correctAnswer": "To make the activity interactive"
+        },
+        {
+          "question": "Which of the following is a UI component in Android?",
+          "options": [
+            "TextView",
+            "LinearLayout",
+            "RelativeLayout",
+            "ConstraintLayout"
+          ],
+          "correctAnswer": "TextView"
+        },
+        {
+          "question": "What is the purpose of the onPause() method in an Android Activity?",
+          "options": [
+            "To prepare the activity to be partially obscured",
+            "To initialize the activity",
+            "To stop the activity",
+            "To destroy the activity"
+          ],
+          "correctAnswer": "To prepare the activity to be partially obscured"
+        },
+        {
+          "question": "Which of the following is a layout component in Android?",
+          "options": ["ConstraintLayout", "Button", "TextView", "ImageView"],
+          "correctAnswer": "ConstraintLayout"
+        },
+        {
+          "question": "What is the purpose of the onStop() method in an Android Activity?",
+          "options": [
+            "To prepare the activity to be no longer visible",
+            "To initialize the activity",
+            "To pause the activity",
+            "To destroy the activity"
+          ],
+          "correctAnswer": "To prepare the activity to be no longer visible"
+        },
+        {
+          "question": "Which of the following is a UI component in Android?",
+          "options": [
+            "ImageView",
+            "LinearLayout",
+            "RelativeLayout",
+            "ConstraintLayout"
+          ],
+          "correctAnswer": "ImageView"
+        },
+        {
+          "question": "What is the purpose of the onDestroy() method in an Android Activity?",
+          "options": [
+            "To clean up resources before the activity is destroyed",
+            "To initialize the activity",
+            "To pause the activity",
+            "To stop the activity"
+          ],
+          "correctAnswer": "To clean up resources before the activity is destroyed"
+        },
+        {
+          "question": "Which of the following is used to handle button clicks in Android?",
+          "options": [
+            "setOnClickListener",
+            "onClickListener",
+            "clickListener",
+            "buttonClick"
+          ],
+          "correctAnswer": "setOnClickListener"
+        },
+        {
+          "question": "What is the purpose of the RecyclerView in Android?",
+          "options": [
+            "To display large sets of data efficiently",
+            "To create buttons in the UI",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To display large sets of data efficiently"
+        },
+        {
+          "question": "Which of the following is used to pass data between activities in Android?",
+          "options": ["Intent", "Bundle", "DataTransfer", "ActivityData"],
+          "correctAnswer": "Intent"
+        },
+        {
+          "question": "What is the purpose of the ViewHolder pattern in RecyclerView?",
+          "options": [
+            "To improve performance by avoiding repeated findViewById calls",
+            "To create views dynamically",
+            "To handle view animations",
+            "To manage view state"
+          ],
+          "correctAnswer": "To improve performance by avoiding repeated findViewById calls"
+        },
+        {
+          "question": "Which of the following is used to store data persistently in Android?",
+          "options": [
+            "SharedPreferences",
+            "MemoryCache",
+            "TemporaryData",
+            "SessionData"
+          ],
+          "correctAnswer": "SharedPreferences"
+        },
+        {
+          "question": "What is the purpose of the Adapter in Android?",
+          "options": [
+            "To bridge data and views",
+            "To create layouts",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To bridge data and views"
+        },
+        {
+          "question": "Which of the following is used to store structured data in Android?",
+          "options": [
+            "SQLite",
+            "SharedPreferences",
+            "MemoryCache",
+            "TemporaryData"
+          ],
+          "correctAnswer": "SQLite"
+        },
+        {
+          "question": "What is the purpose of the Fragment in Android?",
+          "options": [
+            "To represent a modular portion of a user interface",
+            "To handle background tasks",
+            "To store data",
+            "To manage app permissions"
+          ],
+          "correctAnswer": "To represent a modular portion of a user interface"
+        },
+        {
+          "question": "Which of the following is used to make network requests in Android?",
+          "options": [
+            "Retrofit",
+            "NetworkManager",
+            "HttpClient",
+            "RequestHandler"
+          ],
+          "correctAnswer": "Retrofit"
+        },
+        {
+          "question": "What is the purpose of the ViewModel in Android?",
+          "options": [
+            "To store and manage UI-related data in a lifecycle-conscious way",
+            "To create visual layouts",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To store and manage UI-related data in a lifecycle-conscious way"
+        },
+        {
+          "question": "Which of the following is used to load images in Android?",
+          "options": ["Glide", "ImageLoader", "Bitmap", "PictureManager"],
+          "correctAnswer": "Glide"
+        },
+        {
+          "question": "What is the purpose of the LiveData in Android?",
+          "options": [
+            "To hold observable data that respects the lifecycle of app components",
+            "To create visual layouts",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To hold observable data that respects the lifecycle of app components"
+        },
+        {
+          "question": "Which of the following is used to handle dependency injection in Android?",
+          "options": [
+            "Dagger",
+            "Injector",
+            "DependencyManager",
+            "ComponentHandler"
+          ],
+          "correctAnswer": "Dagger"
+        },
+        {
+          "question": "What is the purpose of the Room database in Android?",
+          "options": [
+            "To provide an abstraction layer over SQLite",
+            "To handle network requests",
+            "To manage app permissions",
+            "To create visual layouts"
+          ],
+          "correctAnswer": "To provide an abstraction layer over SQLite"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "iOS Swift Developer Test",
+      "description": "iOS development principles and Swift programming.",
+      "duration": "35 min",
+      "questions": 28,
+      "skills": ["Swift", "iOS UI", "OOP"],
+      "image": "https://images.pexels.com/photos/3861973/pexels-photo-3861973.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is the official programming language for iOS development?",
+          "options": ["Swift", "Objective-C", "Kotlin", "Java"],
+          "correctAnswer": "Swift"
+        },
+        {
+          "question": "What is the purpose of the UIViewController in iOS?",
+          "options": [
+            "To manage a view hierarchy for an iOS app",
+            "To create visual layouts",
+            "To handle network requests",
+            "To store data"
+          ],
+          "correctAnswer": "To manage a view hierarchy for an iOS app"
+        },
+        {
+          "question": "Which of the following is a UI component in iOS?",
+          "options": ["UIButton", "UIViewController", "UIView", "UIWindow"],
+          "correctAnswer": "UIButton"
+        },
+        {
+          "question": "What is the purpose of the viewDidLoad() method in iOS?",
+          "options": [
+            "To initialize the view controller after its view is loaded into memory",
+            "To destroy the view controller",
+            "To pause the view controller",
+            "To resume the view controller"
+          ],
+          "correctAnswer": "To initialize the view controller after its view is loaded into memory"
+        },
+        {
+          "question": "Which of the following is a layout component in iOS?",
+          "options": ["UIStackView", "UIButton", "UILabel", "UIImageView"],
+          "correctAnswer": "UIStackView"
+        },
+        {
+          "question": "What is the purpose of the viewWillAppear() method in iOS?",
+          "options": [
+            "To prepare the view to be displayed on screen",
+            "To initialize the view controller",
+            "To pause the view controller",
+            "To resume the view controller"
+          ],
+          "correctAnswer": "To prepare the view to be displayed on screen"
+        },
+        {
+          "question": "Which of the following is a UI component in iOS?",
+          "options": ["UILabel", "UIViewController", "UIStackView", "UIWindow"],
+          "correctAnswer": "UILabel"
+        },
+        {
+          "question": "What is the purpose of the viewDidAppear() method in iOS?",
+          "options": [
+            "To notify that the view was added to a view hierarchy",
+            "To initialize the view controller",
+            "To pause the view controller",
+            "To destroy the view controller"
+          ],
+          "correctAnswer": "To notify that the view was added to a view hierarchy"
+        },
+        {
+          "question": "Which of the following is a layout component in iOS?",
+          "options": ["UICollectionView", "UIButton", "UILabel", "UIStackView"],
+          "correctAnswer": "UICollectionView"
+        },
+        {
+          "question": "What is the purpose of the viewWillDisappear() method in iOS?",
+          "options": [
+            "To prepare the view to be removed from the view hierarchy",
+            "To initialize the view controller",
+            "To pause the view controller",
+            "To destroy the view controller"
+          ],
+          "correctAnswer": "To prepare the view to be removed from the view hierarchy"
+        },
+        {
+          "question": "Which of the following is a UI component in iOS?",
+          "options": [
+            "UIImageView",
+            "UIViewController",
+            "UIStackView",
+            "UIWindow"
+          ],
+          "correctAnswer": "UIImageView"
+        },
+        {
+          "question": "What is the purpose of the viewDidDisappear() method in iOS?",
+          "options": [
+            "To notify that the view was removed from the view hierarchy",
+            "To initialize the view controller",
+            "To pause the view controller",
+            "To destroy the view controller"
+          ],
+          "correctAnswer": "To notify that the view was removed from the view hierarchy"
+        },
+        {
+          "question": "Which of the following is used to handle button taps in iOS?",
+          "options": ["addTarget", "onTap", "buttonTap", "touchUpInside"],
+          "correctAnswer": "addTarget"
+        },
+        {
+          "question": "What is the purpose of the UITableViewDelegate in iOS?",
+          "options": [
+            "To manage the appearance and behavior of a table view",
+            "To create table views",
+            "To handle network requests",
+            "To store data"
+          ],
+          "correctAnswer": "To manage the appearance and behavior of a table view"
+        },
+        {
+          "question": "Which of the following is used to pass data between view controllers in iOS?",
+          "options": ["Segue", "DataTransfer", "ViewData", "ControllerData"],
+          "correctAnswer": "Segue"
+        },
+        {
+          "question": "What is the purpose of the UITableViewDataSource in iOS?",
+          "options": [
+            "To provide data for a table view",
+            "To create table views",
+            "To handle network requests",
+            "To store data"
+          ],
+          "correctAnswer": "To provide data for a table view"
+        },
+        {
+          "question": "Which of the following is used to store data persistently in iOS?",
+          "options": [
+            "CoreData",
+            "MemoryCache",
+            "TemporaryData",
+            "SessionData"
+          ],
+          "correctAnswer": "CoreData"
+        },
+        {
+          "question": "What is the purpose of the UINavigationController in iOS?",
+          "options": [
+            "To manage a stack of view controllers",
+            "To create navigation bars",
+            "To handle network requests",
+            "To store data"
+          ],
+          "correctAnswer": "To manage a stack of view controllers"
+        },
+        {
+          "question": "Which of the following is used to store structured data in iOS?",
+          "options": [
+            "CoreData",
+            "UserDefaults",
+            "MemoryCache",
+            "TemporaryData"
+          ],
+          "correctAnswer": "CoreData"
+        },
+        {
+          "question": "What is the purpose of the UITabBarController in iOS?",
+          "options": [
+            "To manage a radio-style selection of view controllers",
+            "To create tab bars",
+            "To handle network requests",
+            "To store data"
+          ],
+          "correctAnswer": "To manage a radio-style selection of view controllers"
+        },
+        {
+          "question": "Which of the following is used to make network requests in iOS?",
+          "options": [
+            "URLSession",
+            "NetworkManager",
+            "HttpClient",
+            "RequestHandler"
+          ],
+          "correctAnswer": "URLSession"
+        },
+        {
+          "question": "What is the purpose of the optional in Swift?",
+          "options": [
+            "To handle the absence of a value",
+            "To create optional parameters",
+            "To define optional methods",
+            "To handle optional imports"
+          ],
+          "correctAnswer": "To handle the absence of a value"
+        },
+        {
+          "question": "Which of the following is used to load images in iOS?",
+          "options": ["Kingfisher", "ImageLoader", "Bitmap", "PictureManager"],
+          "correctAnswer": "Kingfisher"
+        },
+        {
+          "question": "What is the purpose of the guard statement in Swift?",
+          "options": [
+            "To transfer program control out of a scope if a condition is not met",
+            "To create conditional statements",
+            "To handle exceptions",
+            "To define optional values"
+          ],
+          "correctAnswer": "To transfer program control out of a scope if a condition is not met"
+        },
+        {
+          "question": "Which of the following is used to handle dependency injection in iOS?",
+          "options": [
+            "Swinject",
+            "Injector",
+            "DependencyManager",
+            "ComponentHandler"
+          ],
+          "correctAnswer": "Swinject"
+        },
+        {
+          "question": "What is the purpose of the Codable protocol in Swift?",
+          "options": [
+            "To enable types to be encoded and decoded",
+            "To create codeable views",
+            "To handle network requests",
+            "To store data"
+          ],
+          "correctAnswer": "To enable types to be encoded and decoded"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Data Structures & Algorithms Test",
+      "description": "Important DSA topics for interviews.",
+      "duration": "45 min",
+      "questions": 35,
+      "skills": ["Arrays", "Recursion", "Graphs"],
+      "image": "https://images.pexels.com/photos/4559472/pexels-photo-4559472.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is a linear data structure?",
+          "options": ["Array", "Tree", "Graph", "Heap"],
+          "correctAnswer": "Array"
+        },
+        {
+          "question": "What is the time complexity of binary search?",
+          "options": ["O(log n)", "O(n)", "O(n log n)", "O(n^2)"],
+          "correctAnswer": "O(log n)"
+        },
+        {
+          "question": "Which of the following is a non-linear data structure?",
+          "options": ["Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Tree"
+        },
+        {
+          "question": "What is the time complexity of linear search?",
+          "options": ["O(n)", "O(log n)", "O(n log n)", "O(n^2)"],
+          "correctAnswer": "O(n)"
+        },
+        {
+          "question": "Which of the following is a type of graph traversal?",
+          "options": [
+            "Breadth-First Search",
+            "Linear Search",
+            "Binary Search",
+            "Jump Search"
+          ],
+          "correctAnswer": "Breadth-First Search"
+        },
+        {
+          "question": "What is the time complexity of bubble sort?",
+          "options": ["O(n^2)", "O(n)", "O(log n)", "O(n log n)"],
+          "correctAnswer": "O(n^2)"
+        },
+        {
+          "question": "Which of the following is a type of graph traversal?",
+          "options": [
+            "Depth-First Search",
+            "Linear Search",
+            "Binary Search",
+            "Jump Search"
+          ],
+          "correctAnswer": "Depth-First Search"
+        },
+        {
+          "question": "What is the time complexity of quicksort?",
+          "options": ["O(n log n)", "O(n)", "O(log n)", "O(n^2)"],
+          "correctAnswer": "O(n log n)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Binary Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Binary Tree"
+        },
+        {
+          "question": "What is the time complexity of merge sort?",
+          "options": ["O(n log n)", "O(n)", "O(log n)", "O(n^2)"],
+          "correctAnswer": "O(n log n)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["AVL Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "AVL Tree"
+        },
+        {
+          "question": "What is the time complexity of heap sort?",
+          "options": ["O(n log n)", "O(n)", "O(log n)", "O(n^2)"],
+          "correctAnswer": "O(n log n)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Red-Black Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Red-Black Tree"
+        },
+        {
+          "question": "What is the time complexity of insertion sort?",
+          "options": ["O(n^2)", "O(n)", "O(log n)", "O(n log n)"],
+          "correctAnswer": "O(n^2)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["B-Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "B-Tree"
+        },
+        {
+          "question": "What is the time complexity of selection sort?",
+          "options": ["O(n^2)", "O(n)", "O(log n)", "O(n log n)"],
+          "correctAnswer": "O(n^2)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Trie", "Array", "Stack", "Queue"],
+          "correctAnswer": "Trie"
+        },
+        {
+          "question": "What is the time complexity of counting sort?",
+          "options": ["O(n+k)", "O(n)", "O(log n)", "O(n^2)"],
+          "correctAnswer": "O(n+k)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Segment Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Segment Tree"
+        },
+        {
+          "question": "What is the time complexity of radix sort?",
+          "options": ["O(nk)", "O(n)", "O(log n)", "O(n^2)"],
+          "correctAnswer": "O(nk)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Fenwick Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Fenwick Tree"
+        },
+        {
+          "question": "What is the time complexity of bucket sort?",
+          "options": ["O(n+k)", "O(n)", "O(log n)", "O(n^2)"],
+          "correctAnswer": "O(n+k)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Suffix Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Suffix Tree"
+        },
+        {
+          "question": "What is the time complexity of shell sort?",
+          "options": ["O(n^2)", "O(n)", "O(log n)", "O(n log n)"],
+          "correctAnswer": "O(n^2)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Huffman Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Huffman Tree"
+        },
+        {
+          "question": "What is the time complexity of Tim sort?",
+          "options": ["O(n log n)", "O(n)", "O(log n)", "O(n^2)"],
+          "correctAnswer": "O(n log n)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Decision Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Decision Tree"
+        },
+        {
+          "question": "What is the time complexity of cocktail sort?",
+          "options": ["O(n^2)", "O(n)", "O(log n)", "O(n log n)"],
+          "correctAnswer": "O(n^2)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Expression Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Expression Tree"
+        },
+        {
+          "question": "What is the time complexity of comb sort?",
+          "options": ["O(n^2)", "O(n)", "O(log n)", "O(n log n)"],
+          "correctAnswer": "O(n^2)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Parse Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Parse Tree"
+        },
+        {
+          "question": "What is the time complexity of Gnome sort?",
+          "options": ["O(n^2)", "O(n)", "O(log n)", "O(n log n)"],
+          "correctAnswer": "O(n^2)"
+        },
+        {
+          "question": "Which of the following is a type of tree?",
+          "options": ["Abstract Syntax Tree", "Array", "Stack", "Queue"],
+          "correctAnswer": "Abstract Syntax Tree"
+        },
+        {
+          "question": "What is the time complexity of cycle sort?",
+          "options": ["O(n^2)", "O(n)", "O(log n)", "O(n log n)"],
+          "correctAnswer": "O(n^2)"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Machine Learning Basics Test",
+      "description": "Basic ML algorithms, math and modeling concepts.",
+      "duration": "40 min",
+      "questions": 30,
+      "skills": ["ML Algorithms", "Data Preprocessing"],
+      "image": "https://images.pexels.com/photos/3861974/pexels-photo-3861974.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is a type of supervised learning?",
+          "options": [
+            "Classification",
+            "Clustering",
+            "Dimensionality Reduction",
+            "Association Rule Learning"
+          ],
+          "correctAnswer": "Classification"
+        },
+        {
+          "question": "What is the purpose of feature scaling in machine learning?",
+          "options": [
+            "To normalize the range of independent variables",
+            "To increase the number of features",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To normalize the range of independent variables"
+        },
+        {
+          "question": "Which of the following is a type of supervised learning?",
+          "options": [
+            "Regression",
+            "Clustering",
+            "Dimensionality Reduction",
+            "Association Rule Learning"
+          ],
+          "correctAnswer": "Regression"
+        },
+        {
+          "question": "What is the purpose of feature selection in machine learning?",
+          "options": [
+            "To select the most relevant features for model construction",
+            "To increase the number of features",
+            "To normalize the range of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To select the most relevant features for model construction"
+        },
+        {
+          "question": "Which of the following is a type of unsupervised learning?",
+          "options": [
+            "Clustering",
+            "Classification",
+            "Regression",
+            "Reinforcement Learning"
+          ],
+          "correctAnswer": "Clustering"
+        },
+        {
+          "question": "What is the purpose of feature extraction in machine learning?",
+          "options": [
+            "To create new features from existing features",
+            "To select the most relevant features",
+            "To normalize the range of features",
+            "To increase the number of features"
+          ],
+          "correctAnswer": "To create new features from existing features"
+        },
+        {
+          "question": "Which of the following is a type of unsupervised learning?",
+          "options": [
+            "Dimensionality Reduction",
+            "Classification",
+            "Regression",
+            "Reinforcement Learning"
+          ],
+          "correctAnswer": "Dimensionality Reduction"
+        },
+        {
+          "question": "What is the purpose of cross-validation in machine learning?",
+          "options": [
+            "To assess how the results of a statistical analysis will generalize to an independent data set",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To assess how the results of a statistical analysis will generalize to an independent data set"
+        },
+        {
+          "question": "Which of the following is a type of unsupervised learning?",
+          "options": [
+            "Association Rule Learning",
+            "Classification",
+            "Regression",
+            "Reinforcement Learning"
+          ],
+          "correctAnswer": "Association Rule Learning"
+        },
+        {
+          "question": "What is the purpose of regularization in machine learning?",
+          "options": [
+            "To prevent overfitting by adding a penalty term to the loss function",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To prevent overfitting by adding a penalty term to the loss function"
+        },
+        {
+          "question": "Which of the following is a type of reinforcement learning?",
+          "options": [
+            "Q-Learning",
+            "Classification",
+            "Regression",
+            "Clustering"
+          ],
+          "correctAnswer": "Q-Learning"
+        },
+        {
+          "question": "What is the purpose of ensemble learning in machine learning?",
+          "options": [
+            "To combine multiple models to produce one optimal predictive model",
+            "To increase the number of features",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To combine multiple models to produce one optimal predictive model"
+        },
+        {
+          "question": "Which of the following is a type of reinforcement learning?",
+          "options": ["SARSA", "Classification", "Regression", "Clustering"],
+          "correctAnswer": "SARSA"
+        },
+        {
+          "question": "What is the purpose of the bias-variance tradeoff in machine learning?",
+          "options": [
+            "To balance the error due to bias and the error due to variance",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To balance the error due to bias and the error due to variance"
+        },
+        {
+          "question": "Which of the following is a type of reinforcement learning?",
+          "options": ["DQN", "Classification", "Regression", "Clustering"],
+          "correctAnswer": "DQN"
+        },
+        {
+          "question": "What is the purpose of the confusion matrix in machine learning?",
+          "options": [
+            "To evaluate the performance of a classification model",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To evaluate the performance of a classification model"
+        },
+        {
+          "question": "Which of the following is a type of classification algorithm?",
+          "options": ["Decision Tree", "K-Means", "PCA", "Apriori"],
+          "correctAnswer": "Decision Tree"
+        },
+        {
+          "question": "What is the purpose of the ROC curve in machine learning?",
+          "options": [
+            "To illustrate the diagnostic ability of a binary classifier",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To illustrate the diagnostic ability of a binary classifier"
+        },
+        {
+          "question": "Which of the following is a type of classification algorithm?",
+          "options": ["Naive Bayes", "K-Means", "PCA", "Apriori"],
+          "correctAnswer": "Naive Bayes"
+        },
+        {
+          "question": "What is the purpose of the precision-recall curve in machine learning?",
+          "options": [
+            "To evaluate the performance of a classification model",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To evaluate the performance of a classification model"
+        },
+        {
+          "question": "Which of the following is a type of classification algorithm?",
+          "options": ["SVM", "K-Means", "PCA", "Apriori"],
+          "correctAnswer": "SVM"
+        },
+        {
+          "question": "What is the purpose of the F1 score in machine learning?",
+          "options": [
+            "To provide a single score that balances precision and recall",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To provide a single score that balances precision and recall"
+        },
+        {
+          "question": "Which of the following is a type of classification algorithm?",
+          "options": ["K-Nearest Neighbors", "K-Means", "PCA", "Apriori"],
+          "correctAnswer": "K-Nearest Neighbors"
+        },
+        {
+          "question": "What is the purpose of the mean squared error in machine learning?",
+          "options": [
+            "To measure the average of the squares of the errors",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To measure the average of the squares of the errors"
+        },
+        {
+          "question": "Which of the following is a type of classification algorithm?",
+          "options": ["Random Forest", "K-Means", "PCA", "Apriori"],
+          "correctAnswer": "Random Forest"
+        },
+        {
+          "question": "What is the purpose of the R-squared in machine learning?",
+          "options": [
+            "To indicate the proportion of the variance in the dependent variable that is predictable from the independent variable(s)",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To indicate the proportion of the variance in the dependent variable that is predictable from the independent variable(s)"
+        },
+        {
+          "question": "Which of the following is a type of classification algorithm?",
+          "options": ["Gradient Boosting", "K-Means", "PCA", "Apriori"],
+          "correctAnswer": "Gradient Boosting"
+        },
+        {
+          "question": "What is the purpose of the AUC-ROC in machine learning?",
+          "options": [
+            "To measure the entire two-dimensional area underneath the entire ROC curve",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To measure the entire two-dimensional area underneath the entire ROC curve"
+        },
+        {
+          "question": "Which of the following is a type of regression algorithm?",
+          "options": ["Linear Regression", "K-Means", "PCA", "Apriori"],
+          "correctAnswer": "Linear Regression"
+        },
+        {
+          "question": "What is the purpose of the mean absolute error in machine learning?",
+          "options": [
+            "To measure the average of the absolute errors",
+            "To increase the accuracy of a model",
+            "To reduce the number of features",
+            "To create new features"
+          ],
+          "correctAnswer": "To measure the average of the absolute errors"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Product Manager Test",
+      "description": "Business strategy, roadmaps, and planning skills.",
+      "duration": "30 min",
+      "questions": 25,
+      "skills": ["Agile", "Roadmap", "Analytics"],
+      "image": "https://images.pexels.com/photos/3182831/pexels-photo-3182831.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Defining the product vision and strategy",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Defining the product vision and strategy"
+        },
+        {
+          "question": "What is the purpose of a product roadmap?",
+          "options": [
+            "To outline the vision, direction, and progress of a product over time",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To outline the vision, direction, and progress of a product over time"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Prioritizing features and tasks",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Prioritizing features and tasks"
+        },
+        {
+          "question": "What is the purpose of user stories in product management?",
+          "options": [
+            "To describe a feature from an end-user perspective",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To describe a feature from an end-user perspective"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Gathering and prioritizing requirements",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Gathering and prioritizing requirements"
+        },
+        {
+          "question": "What is the purpose of a product backlog in product management?",
+          "options": [
+            "To list all the work that needs to be done on a product",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To list all the work that needs to be done on a product"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Defining and tracking key performance indicators",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Defining and tracking key performance indicators"
+        },
+        {
+          "question": "What is the purpose of a minimum viable product (MVP)?",
+          "options": [
+            "To release a product with enough features to be usable by early customers",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To release a product with enough features to be usable by early customers"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Conducting market research and competitive analysis",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Conducting market research and competitive analysis"
+        },
+        {
+          "question": "What is the purpose of a product-market fit in product management?",
+          "options": [
+            "To ensure that a product meets a strong market demand",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To ensure that a product meets a strong market demand"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Working with cross-functional teams",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Working with cross-functional teams"
+        },
+        {
+          "question": "What is the purpose of a product requirements document (PRD)?",
+          "options": [
+            "To define the requirements of a product to be developed",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To define the requirements of a product to be developed"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Making strategic product decisions",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Making strategic product decisions"
+        },
+        {
+          "question": "What is the purpose of A/B testing in product management?",
+          "options": [
+            "To compare two versions of a product to determine which one performs better",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To compare two versions of a product to determine which one performs better"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Managing the product lifecycle",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Managing the product lifecycle"
+        },
+        {
+          "question": "What is the purpose of a product vision statement?",
+          "options": [
+            "To articulate the long-term goals and aspirations of a product",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To articulate the long-term goals and aspirations of a product"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Defining product metrics and success criteria",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Defining product metrics and success criteria"
+        },
+        {
+          "question": "What is the purpose of a user persona in product management?",
+          "options": [
+            "To represent a fictional user based on user research",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To represent a fictional user based on user research"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Conducting user research and interviews",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Conducting user research and interviews"
+        },
+        {
+          "question": "What is the purpose of a product positioning statement?",
+          "options": [
+            "To define how a product will be perceived by target customers relative to competitors",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To define how a product will be perceived by target customers relative to competitors"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Creating and maintaining the product roadmap",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Creating and maintaining the product roadmap"
+        },
+        {
+          "question": "What is the purpose of a go-to-market strategy?",
+          "options": [
+            "To outline how a company will reach target customers and achieve competitive advantage",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To outline how a company will reach target customers and achieve competitive advantage"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Defining the product pricing strategy",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Defining the product pricing strategy"
+        },
+        {
+          "question": "What is the purpose of a product launch plan?",
+          "options": [
+            "To outline the activities and timeline for introducing a product to the market",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To test a product"
+          ],
+          "correctAnswer": "To outline the activities and timeline for introducing a product to the market"
+        },
+        {
+          "question": "Which of the following is a key responsibility of a Product Manager?",
+          "options": [
+            "Analyzing product performance and user feedback",
+            "Writing code",
+            "Designing UI",
+            "Testing software"
+          ],
+          "correctAnswer": "Analyzing product performance and user feedback"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "QA Tester Test",
+      "description": "Test software testing theory and bug reporting.",
+      "duration": "30 min",
+      "questions": 25,
+      "skills": ["Manual Testing", "Bugs", "Test Cases"],
+      "image": "https://images.pexels.com/photos/3861975/pexels-photo-3861975.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": ["Unit Testing", "Programming", "Designing", "Marketing"],
+          "correctAnswer": "Unit Testing"
+        },
+        {
+          "question": "What is the purpose of a test case in software testing?",
+          "options": [
+            "To define the steps to test a specific functionality",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To define the steps to test a specific functionality"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Integration Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Integration Testing"
+        },
+        {
+          "question": "What is the purpose of a test plan in software testing?",
+          "options": [
+            "To outline the approach, resources, and schedule of testing activities",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To outline the approach, resources, and schedule of testing activities"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "System Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "System Testing"
+        },
+        {
+          "question": "What is the purpose of a bug report in software testing?",
+          "options": [
+            "To document a defect found during testing",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To document a defect found during testing"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Acceptance Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Acceptance Testing"
+        },
+        {
+          "question": "What is the purpose of regression testing in software testing?",
+          "options": [
+            "To ensure that new changes have not adversely affected existing features",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To ensure that new changes have not adversely affected existing features"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Performance Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Performance Testing"
+        },
+        {
+          "question": "What is the purpose of smoke testing in software testing?",
+          "options": [
+            "To verify that the basic functionalities of a program work as expected",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To verify that the basic functionalities of a program work as expected"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Security Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Security Testing"
+        },
+        {
+          "question": "What is the purpose of sanity testing in software testing?",
+          "options": [
+            "To verify that a particular function works as expected after a minor change",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To verify that a particular function works as expected after a minor change"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Usability Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Usability Testing"
+        },
+        {
+          "question": "What is the purpose of exploratory testing in software testing?",
+          "options": [
+            "To discover unknown issues through simultaneous learning and test design",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To discover unknown issues through simultaneous learning and test design"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Compatibility Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Compatibility Testing"
+        },
+        {
+          "question": "What is the purpose of black-box testing in software testing?",
+          "options": [
+            "To test the functionality without knowing the internal code structure",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To test the functionality without knowing the internal code structure"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Recovery Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Recovery Testing"
+        },
+        {
+          "question": "What is the purpose of white-box testing in software testing?",
+          "options": [
+            "To test the functionality with knowledge of the internal code structure",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To test the functionality with knowledge of the internal code structure"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Installation Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Installation Testing"
+        },
+        {
+          "question": "What is the purpose of gray-box testing in software testing?",
+          "options": [
+            "To test the functionality with partial knowledge of the internal code structure",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To test the functionality with partial knowledge of the internal code structure"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Localization Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Localization Testing"
+        },
+        {
+          "question": "What is the purpose of ad-hoc testing in software testing?",
+          "options": [
+            "To test the functionality without any formal test plan or documentation",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To test the functionality without any formal test plan or documentation"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Globalization Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Globalization Testing"
+        },
+        {
+          "question": "What is the purpose of alpha testing in software testing?",
+          "options": [
+            "To test the functionality in a development environment by the internal team",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To test the functionality in a development environment by the internal team"
+        },
+        {
+          "question": "Which of the following is a type of software testing?",
+          "options": [
+            "Accessibility Testing",
+            "Programming",
+            "Designing",
+            "Marketing"
+          ],
+          "correctAnswer": "Accessibility Testing"
+        },
+        {
+          "question": "What is the purpose of beta testing in software testing?",
+          "options": [
+            "To test the functionality in a real-world environment by real users",
+            "To write code for a product",
+            "To design the UI of a product",
+            "To market a product"
+          ],
+          "correctAnswer": "To test the functionality in a real-world environment by real users"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Digital Marketing Test",
+      "description": "SEO, SEM, and Social Media analytics knowledge.",
+      "duration": "25 min",
+      "questions": 24,
+      "skills": ["SEO", "Marketing Tools"],
+      "image": "https://images.pexels.com/photos/3861976/pexels-photo-3861976.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["Keywords", "Images", "Videos", "Animations"],
+          "correctAnswer": "Keywords"
+        },
+        {
+          "question": "What is the purpose of SEO in digital marketing?",
+          "options": [
+            "To increase the visibility of a website in search engine results",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To increase the visibility of a website in search engine results"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["Backlinks", "Images", "Videos", "Animations"],
+          "correctAnswer": "Backlinks"
+        },
+        {
+          "question": "What is the purpose of SEM in digital marketing?",
+          "options": [
+            "To increase the visibility of a website through paid advertising on search engines",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To increase the visibility of a website through paid advertising on search engines"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["Content Quality", "Images", "Videos", "Animations"],
+          "correctAnswer": "Content Quality"
+        },
+        {
+          "question": "What is the purpose of social media marketing in digital marketing?",
+          "options": [
+            "To promote a product or service through social media platforms",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To promote a product or service through social media platforms"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["Meta Tags", "Images", "Videos", "Animations"],
+          "correctAnswer": "Meta Tags"
+        },
+        {
+          "question": "What is the purpose of email marketing in digital marketing?",
+          "options": [
+            "To promote a product or service through email campaigns",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To promote a product or service through email campaigns"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["Site Speed", "Images", "Videos", "Animations"],
+          "correctAnswer": "Site Speed"
+        },
+        {
+          "question": "What is the purpose of content marketing in digital marketing?",
+          "options": [
+            "To attract and retain a clearly defined audience by creating and distributing relevant and valuable content",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To attract and retain a clearly defined audience by creating and distributing relevant and valuable content"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["Mobile-Friendliness", "Images", "Videos", "Animations"],
+          "correctAnswer": "Mobile-Friendliness"
+        },
+        {
+          "question": "What is the purpose of influencer marketing in digital marketing?",
+          "options": [
+            "To promote a product or service through influential people",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To promote a product or service through influential people"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["URL Structure", "Images", "Videos", "Animations"],
+          "correctAnswer": "URL Structure"
+        },
+        {
+          "question": "What is the purpose of affiliate marketing in digital marketing?",
+          "options": [
+            "To promote a product or service through affiliates who earn a commission for each sale",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To promote a product or service through affiliates who earn a commission for each sale"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["Internal Linking", "Images", "Videos", "Animations"],
+          "correctAnswer": "Internal Linking"
+        },
+        {
+          "question": "What is the purpose of display advertising in digital marketing?",
+          "options": [
+            "To promote a product or service through visual ads on websites",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To promote a product or service through visual ads on websites"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["Schema Markup", "Images", "Videos", "Animations"],
+          "correctAnswer": "Schema Markup"
+        },
+        {
+          "question": "What is the purpose of video marketing in digital marketing?",
+          "options": [
+            "To promote a product or service through video content",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To promote a product or service through video content"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["Domain Authority", "Images", "Videos", "Animations"],
+          "correctAnswer": "Domain Authority"
+        },
+        {
+          "question": "What is the purpose of native advertising in digital marketing?",
+          "options": [
+            "To promote a product or service through ads that match the form and function of the platform on which they appear",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To promote a product or service through ads that match the form and function of the platform on which they appear"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["User Experience", "Images", "Videos", "Animations"],
+          "correctAnswer": "User Experience"
+        },
+        {
+          "question": "What is the purpose of remarketing in digital marketing?",
+          "options": [
+            "To target users who have previously interacted with a website or app",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To target users who have previously interacted with a website or app"
+        },
+        {
+          "question": "Which of the following is a key component of SEO?",
+          "options": ["Social Signals", "Images", "Videos", "Animations"],
+          "correctAnswer": "Social Signals"
+        },
+        {
+          "question": "What is the purpose of viral marketing in digital marketing?",
+          "options": [
+            "To promote a product or service through content that spreads rapidly from person to person",
+            "To create visually appealing designs",
+            "To handle user input",
+            "To navigate between screens"
+          ],
+          "correctAnswer": "To promote a product or service through content that spreads rapidly from person to person"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Networking Concepts Test",
+      "description": "OSI Model, protocols and routing.",
+      "duration": "35 min",
+      "questions": 30,
+      "skills": ["TCP/IP", "Routing", "Security"],
+      "image": "https://images.pexels.com/photos/3861977/pexels-photo-3861977.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is a layer in the OSI model?",
+          "options": [
+            "Physical Layer",
+            "Connection Layer",
+            "Transportation Layer",
+            "Communication Layer"
+          ],
+          "correctAnswer": "Physical Layer"
+        },
+        {
+          "question": "What is the purpose of the Physical Layer in the OSI model?",
+          "options": [
+            "To transmit raw bit stream over a physical medium",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To transmit raw bit stream over a physical medium"
+        },
+        {
+          "question": "Which of the following is a layer in the OSI model?",
+          "options": [
+            "Data Link Layer",
+            "Connection Layer",
+            "Transportation Layer",
+            "Communication Layer"
+          ],
+          "correctAnswer": "Data Link Layer"
+        },
+        {
+          "question": "What is the purpose of the Data Link Layer in the OSI model?",
+          "options": [
+            "To provide reliable data transfer between two directly connected nodes",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To provide reliable data transfer between two directly connected nodes"
+        },
+        {
+          "question": "Which of the following is a layer in the OSI model?",
+          "options": [
+            "Network Layer",
+            "Connection Layer",
+            "Transportation Layer",
+            "Communication Layer"
+          ],
+          "correctAnswer": "Network Layer"
+        },
+        {
+          "question": "What is the purpose of the Network Layer in the OSI model?",
+          "options": [
+            "To provide routing and switching technologies",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To provide routing and switching technologies"
+        },
+        {
+          "question": "Which of the following is a layer in the OSI model?",
+          "options": [
+            "Transport Layer",
+            "Connection Layer",
+            "Transportation Layer",
+            "Communication Layer"
+          ],
+          "correctAnswer": "Transport Layer"
+        },
+        {
+          "question": "What is the purpose of the Transport Layer in the OSI model?",
+          "options": [
+            "To provide transparent transfer of data between end points",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To provide transparent transfer of data between end points"
+        },
+        {
+          "question": "Which of the following is a layer in the OSI model?",
+          "options": [
+            "Session Layer",
+            "Connection Layer",
+            "Transportation Layer",
+            "Communication Layer"
+          ],
+          "correctAnswer": "Session Layer"
+        },
+        {
+          "question": "What is the purpose of the Session Layer in the OSI model?",
+          "options": [
+            "To establish, manage, and terminate sessions between applications",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To establish, manage, and terminate sessions between applications"
+        },
+        {
+          "question": "Which of the following is a layer in the OSI model?",
+          "options": [
+            "Presentation Layer",
+            "Connection Layer",
+            "Transportation Layer",
+            "Communication Layer"
+          ],
+          "correctAnswer": "Presentation Layer"
+        },
+        {
+          "question": "What is the purpose of the Presentation Layer in the OSI model?",
+          "options": [
+            "To translate, encrypt, and compress data",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To translate, encrypt, and compress data"
+        },
+        {
+          "question": "Which of the following is a layer in the OSI model?",
+          "options": [
+            "Application Layer",
+            "Connection Layer",
+            "Transportation Layer",
+            "Communication Layer"
+          ],
+          "correctAnswer": "Application Layer"
+        },
+        {
+          "question": "What is the purpose of the Application Layer in the OSI model?",
+          "options": [
+            "To provide network services to end-user applications",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To provide network services to end-user applications"
+        },
+        {
+          "question": "Which of the following is a protocol in the TCP/IP model?",
+          "options": [
+            "IP",
+            "Connection Protocol",
+            "Transportation Protocol",
+            "Communication Protocol"
+          ],
+          "correctAnswer": "IP"
+        },
+        {
+          "question": "What is the purpose of the IP protocol in the TCP/IP model?",
+          "options": [
+            "To provide addressing and routing of packets across networks",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To provide addressing and routing of packets across networks"
+        },
+        {
+          "question": "Which of the following is a protocol in the TCP/IP model?",
+          "options": [
+            "TCP",
+            "Connection Protocol",
+            "Transportation Protocol",
+            "Communication Protocol"
+          ],
+          "correctAnswer": "TCP"
+        },
+        {
+          "question": "What is the purpose of the TCP protocol in the TCP/IP model?",
+          "options": [
+            "To provide reliable, ordered, and error-checked delivery of data",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To provide reliable, ordered, and error-checked delivery of data"
+        },
+        {
+          "question": "Which of the following is a protocol in the TCP/IP model?",
+          "options": [
+            "UDP",
+            "Connection Protocol",
+            "Transportation Protocol",
+            "Communication Protocol"
+          ],
+          "correctAnswer": "UDP"
+        },
+        {
+          "question": "What is the purpose of the UDP protocol in the TCP/IP model?",
+          "options": [
+            "To provide a connectionless datagram service",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To provide a connectionless datagram service"
+        },
+        {
+          "question": "Which of the following is a protocol in the TCP/IP model?",
+          "options": [
+            "HTTP",
+            "Connection Protocol",
+            "Transportation Protocol",
+            "Communication Protocol"
+          ],
+          "correctAnswer": "HTTP"
+        },
+        {
+          "question": "What is the purpose of the HTTP protocol in the TCP/IP model?",
+          "options": [
+            "To enable communication between web browsers and servers",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To enable communication between web browsers and servers"
+        },
+        {
+          "question": "Which of the following is a protocol in the TCP/IP model?",
+          "options": [
+            "HTTPS",
+            "Connection Protocol",
+            "Transportation Protocol",
+            "Communication Protocol"
+          ],
+          "correctAnswer": "HTTPS"
+        },
+        {
+          "question": "What is the purpose of the HTTPS protocol in the TCP/IP model?",
+          "options": [
+            "To enable secure communication between web browsers and servers",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To enable secure communication between web browsers and servers"
+        },
+        {
+          "question": "Which of the following is a protocol in the TCP/IP model?",
+          "options": [
+            "FTP",
+            "Connection Protocol",
+            "Transportation Protocol",
+            "Communication Protocol"
+          ],
+          "correctAnswer": "FTP"
+        },
+        {
+          "question": "What is the purpose of the FTP protocol in the TCP/IP model?",
+          "options": [
+            "To enable file transfers between a client and a server",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To enable file transfers between a client and a server"
+        },
+        {
+          "question": "Which of the following is a protocol in the TCP/IP model?",
+          "options": [
+            "SMTP",
+            "Connection Protocol",
+            "Transportation Protocol",
+            "Communication Protocol"
+          ],
+          "correctAnswer": "SMTP"
+        },
+        {
+          "question": "What is the purpose of the SMTP protocol in the TCP/IP model?",
+          "options": [
+            "To enable email transmission between mail servers",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To enable email transmission between mail servers"
+        },
+        {
+          "question": "Which of the following is a protocol in the TCP/IP model?",
+          "options": [
+            "DNS",
+            "Connection Protocol",
+            "Transportation Protocol",
+            "Communication Protocol"
+          ],
+          "correctAnswer": "DNS"
+        },
+        {
+          "question": "What is the purpose of the DNS protocol in the TCP/IP model?",
+          "options": [
+            "To translate domain names to IP addresses",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To translate domain names to IP addresses"
+        },
+        {
+          "question": "Which of the following is a protocol in the TCP/IP model?",
+          "options": [
+            "DHCP",
+            "Connection Protocol",
+            "Transportation Protocol",
+            "Communication Protocol"
+          ],
+          "correctAnswer": "DHCP"
+        },
+        {
+          "question": "What is the purpose of the DHCP protocol in the TCP/IP model?",
+          "options": [
+            "To assign IP addresses to devices dynamically",
+            "To establish connections between devices",
+            "To transport data between devices",
+            "To manage network communication"
+          ],
+          "correctAnswer": "To assign IP addresses to devices dynamically"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "Communication Skills Test",
+      "description": "Evaluate written and verbal communication performance.",
+      "duration": "20 min",
+      "questions": 20,
+      "skills": ["Fluency", "Confidence", "Grammar"],
+      "image": "https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg",
+      "testQuestions": [
+        {
+          "question": "Which of the following is a key component of effective communication?",
+          "options": ["Clarity", "Complexity", "Ambiguity", "Confusion"],
+          "correctAnswer": "Clarity"
+        },
+        {
+          "question": "What is the purpose of active listening in communication?",
+          "options": [
+            "To fully understand, respond, and remember what is being said",
+            "To speak more than the other person",
+            "To interrupt the other person",
+            "To ignore the other person"
+          ],
+          "correctAnswer": "To fully understand, respond, and remember what is being said"
+        },
+        {
+          "question": "Which of the following is a key component of effective communication?",
+          "options": ["Conciseness", "Lengthiness", "Verbosity", "Redundancy"],
+          "correctAnswer": "Conciseness"
+        },
+        {
+          "question": "What is the purpose of body language in communication?",
+          "options": [
+            "To convey non-verbal cues that support or contradict verbal messages",
+            "To speak more than the other person",
+            "To interrupt the other person",
+            "To ignore the other person"
+          ],
+          "correctAnswer": "To convey non-verbal cues that support or contradict verbal messages"
+        },
+        {
+          "question": "Which of the following is a key component of effective communication?",
+          "options": ["Correctness", "Incorrectness", "Inaccuracy", "Error"],
+          "correctAnswer": "Correctness"
+        },
+        {
+          "question": "What is the purpose of empathy in communication?",
+          "options": [
+            "To understand and share the feelings of another person",
+            "To speak more than the other person",
+            "To interrupt the other person",
+            "To ignore the other person"
+          ],
+          "correctAnswer": "To understand and share the feelings of another person"
+        },
+        {
+          "question": "Which of the following is a key component of effective communication?",
+          "options": [
+            "Completeness",
+            "Incompleteness",
+            "Partiality",
+            "Fragmentation"
+          ],
+          "correctAnswer": "Completeness"
+        },
+        {
+          "question": "What is the purpose of feedback in communication?",
+          "options": [
+            "To provide information about the effectiveness of the communication",
+            "To speak more than the other person",
+            "To interrupt the other person",
+            "To ignore the other person"
+          ],
+          "correctAnswer": "To provide information about the effectiveness of the communication"
+        },
+        {
+          "question": "Which of the following is a key component of effective communication?",
+          "options": [
+            "Courteousness",
+            "Rudeness",
+            "Discourtesy",
+            "Impoliteness"
+          ],
+          "correctAnswer": "Courteousness"
+        },
+        {
+          "question": "What is the purpose of assertiveness in communication?",
+          "options": [
+            "To express one's opinions and needs directly and honestly",
+            "To speak more than the other person",
+            "To interrupt the other person",
+            "To ignore the other person"
+          ],
+          "correctAnswer": "To express one's opinions and needs directly and honestly"
+        },
+        {
+          "question": "Which of the following is a key component of effective communication?",
+          "options": ["Confidence", "Uncertainty", "Doubt", "Hesitation"],
+          "correctAnswer": "Confidence"
+        },
+        {
+          "question": "What is the purpose of questioning in communication?",
+          "options": [
+            "To gather information and clarify understanding",
+            "To speak more than the other person",
+            "To interrupt the other person",
+            "To ignore the other person"
+          ],
+          "correctAnswer": "To gather information and clarify understanding"
+        },
+        {
+          "question": "Which of the following is a key component of effective communication?",
+          "options": ["Empathy", "Apathy", "Indifference", "Detachment"],
+          "correctAnswer": "Empathy"
+        },
+        {
+          "question": "What is the purpose of paraphrasing in communication?",
+          "options": [
+            "To restate what has been said in one's own words to confirm understanding",
+            "To speak more than the other person",
+            "To interrupt the other person",
+            "To ignore the other person"
+          ],
+          "correctAnswer": "To restate what has been said in one's own words to confirm understanding"
+        },
+        {
+          "question": "Which of the following is a key component of effective communication?",
+          "options": [
+            "Open-mindedness",
+            "Close-mindedness",
+            "Prejudice",
+            "Bias"
+          ],
+          "correctAnswer": "Open-mindedness"
+        },
+        {
+          "question": "What is the purpose of summarizing in communication?",
+          "options": [
+            "To condense the main points of a conversation",
+            "To speak more than the other person",
+            "To interrupt the other person",
+            "To ignore the other person"
+          ],
+          "correctAnswer": "To condense the main points of a conversation"
+        },
+        {
+          "question": "Which of the following is a key component of effective communication?",
+          "options": ["Respect", "Disrespect", "Contempt", "Scorn"],
+          "correctAnswer": "Respect"
+        },
+        {
+          "question": "What is the purpose of non-verbal communication?",
+          "options": [
+            "To convey messages without using words",
+            "To speak more than the other person",
+            "To interrupt the other person",
+            "To ignore the other person"
+          ],
+          "correctAnswer": "To convey messages without using words"
+        },
+        {
+          "question": "Which of the following is a key component of effective communication?",
+          "options": ["Honesty", "Dishonesty", "Deception", "Fraudulence"],
+          "correctAnswer": "Honesty"
+        },
+        {
+          "question": "What is the purpose of tone in communication?",
+          "options": [
+            "To convey the speaker's attitude toward the subject and the listener",
+            "To speak more than the other person",
+            "To interrupt the other person",
+            "To ignore the other person"
+          ],
+          "correctAnswer": "To convey the speaker's attitude toward the subject and the listener"
+        }
+      ]
+    }
+  ]
+}

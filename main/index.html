@@ -1,0 +1,785 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <i id="menu-btn" class="ri-menu-line"></i>
+
+          <a href="#" class="logo">Dream<span>Hire</span></a>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../job.html">Jobs</a></li>
+        <li><a href="../Services.html">Services</a></li>
+        <li><a href="./test/contests.html">Contests</a></li>
+      </ul>
+      <div class="nav__menu__btn">
+        <div class="user">
+          <div id="auth">
+            <button class="btn rgs">
+              <a href="../register.html">Register</a>
+            </button>
+            <button class="btn lgn"><a href="../login.html">login</a></button>
+          </div>
+          <div id="profile">
+            <li><a href="../profile.html">Profile</a></li>
+            <button class="btn" id="logout">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="section__container header__container" id="home">
+      <img src="assets/google.png" alt="header" />
+      <img src="assets/twitter.png" alt="header" />
+      <img src="assets/amazon.png" alt="header" />
+      <img src="assets/figma.png" alt="header" />
+      <img src="assets/linkedin.png" alt="header" />
+      <img src="assets/microsoft.png" alt="header" />
+      <h2>
+        <img src="assets/bag.png" alt="bag" />
+        No.1 Job Hunt Website
+      </h2>
+      <div class="pyramid-container">
+        <div class="pyramid-row top">
+          <div class="feature-card card-1">
+            <div class="icon-wrapper">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="feature-text">
+              Check readiness & prepare for a job role
+            </div>
+            <i class="fas fa-chevron-right arrow-icon"></i>
+          </div>
+
+          <div class="feature-card card-2">
+            <div class="icon-wrapper">
+              <i class="fas fa-pen"></i>
+            </div>
+            <div class="feature-text">Test your aptitude skills</div>
+            <i class="fas fa-chevron-right arrow-icon"></i>
+          </div>
+
+          <div class="feature-card card-3">
+            <div class="icon-wrapper">
+              <i class="fas fa-graduation-cap"></i>
+            </div>
+            <div class="feature-text">Get career guidance</div>
+            <i class="fas fa-chevron-right arrow-icon"></i>
+          </div>
+        </div>
+
+        <div class="pyramid-row middle">
+          <div class="feature-card card-4">
+            <div class="icon-wrapper">
+              <i class="fas fa-tv"></i>
+            </div>
+            <div class="feature-text">Attend expert’s sessions</div>
+            <i class="fas fa-chevron-right arrow-icon"></i>
+          </div>
+
+          <div class="feature-card card-5">
+            <div class="icon-wrapper">
+              <i class="fas fa-trophy"></i>
+            </div>
+            <div class="feature-text">Participate in contests</div>
+            <i class="fas fa-chevron-right arrow-icon"></i>
+          </div>
+
+          <div class="feature-card card-6">
+            <div class="icon-wrapper">
+              <i class="fas fa-briefcase"></i>
+            </div>
+            <div class="feature-text">Find jobs & internships</div>
+            <i class="fas fa-chevron-right arrow-icon"></i>
+          </div>
+        </div>
+      </div>
+      <div class="header__btns">
+        <button class="btn">Browse Jobs</button>
+        <a href="#">
+          <span><i class="ri-play-fill"></i></span>
+          How It Works?
+        </a>
+      </div>
+    </header>
+    <section class="steps" id="about">
+      <div class="section__container steps__container">
+        <h2 class="section__header">
+          Get Hired in 4 <span>Quick Easy Steps</span>
+        </h2>
+        <p class="section__description">
+          Follow Our Simple, Step-by-Step Guide to Quickly Land Your Dream Job
+          and Start Your New Career Journey.
+        </p>
+        <div class="steps__grid">
+          <div class="steps__card">
+            <span><i class="ri-user-fill"></i></span>
+            <h4>Create an Account</h4>
+            <p>
+              Sign up with just a few clicks to unlock exclusive access to a
+              world of job opportunities and landing your dream job. It's quick,
+              easy, and completely free.
+            </p>
+          </div>
+          <div class="steps__card">
+            <span><i class="ri-search-fill"></i></span>
+            <h4>Search Job</h4>
+            <p>
+              Dive into our job database tailored to match your skills and
+              preferences. With our advanced search filters, finding the perfect
+              job has never been easier.
+            </p>
+          </div>
+          <div class="steps__card">
+            <span><i class="ri-file-paper-fill"></i></span>
+            <h4>Upload CV/Resume</h4>
+            <p>
+              Showcase your experience by uploading your CV or resume. Let
+              employers know why you're the perfect candidate for their job
+              openings.
+            </p>
+          </div>
+          <div class="steps__card">
+            <span><i class="ri-briefcase-fill"></i></span>
+            <h4>Get Job</h4>
+            <p>
+              Take the final step towards your new career. Get ready to embark
+              on your professional journey and secure the job you've been
+              dreaming of.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__container explore__container">
+      <h2 class="section__header">
+        <span>Countless Career Options</span> Are Waiting For You To Explore
+      </h2>
+      <p class="section__description">
+        Discover a World of Exciting Opportunities and Endless Possibilities,
+        and Find the Perfect Career Path to Shape Your Future.
+      </p>
+      <div class="explore__grid">
+        <div class="explore__card">
+          <span><i class="ri-pencil-ruler-2-fill"></i></span>
+          <h4>Design</h4>
+          <p>200+ jobs openings</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-bar-chart-box-fill"></i></span>
+          <h4>Sales</h4>
+          <p>350+ jobs openings</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-megaphone-fill"></i></span>
+          <h4>Marketing</h4>
+          <p>500+ jobs openings</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-wallet-3-fill"></i></span>
+          <h4>Finance</h4>
+          <p>200+ jobs openings</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-car-fill"></i></span>
+          <h4>Automobile</h4>
+          <p>250+ jobs openings</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-truck-fill"></i></span>
+          <h4>Logistics / Delivery</h4>
+          <p>1k+ jobs openings</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-computer-fill"></i></span>
+          <h4>Admin</h4>
+          <p>100+ jobs openings</p>
+        </div>
+        <div class="explore__card">
+          <span><i class="ri-building-fill"></i></span>
+          <h4>Construction</h4>
+          <p>500+ jobs openings</p>
+        </div>
+      </div>
+      <div class="explore__btn">
+        <button class="btn">View All Categories</button>
+      </div>
+    </section>
+    <section class="section__container">
+      <div class="wrap">
+        <div class="hero-card" role="region" aria-label="Hero example">
+          <div class="hero-left">
+            <div class="badge">✔ Test your skills early</div>
+
+            <h2 class="hero-title">
+              80% companies hire using an aptitude test! Practice with NCAT.
+            </h2>
+
+            <ul class="hero-list" aria-hidden="false">
+              <li><span class="check">✓</span> Test your skills early</li>
+              <li><span class="check">✓</span> Assess your strengths</li>
+              <li>
+                <span class="check">✓</span> Understand areas of improvement
+              </li>
+            </ul>
+
+            <div class="hero-cta">
+              <button class="btn-primary">Take NCAT</button>
+              <a class="link-muted" href="#">Know more</a>
+            </div>
+
+            <div class="meta-line">
+              <span>👥</span>
+              <span>13.3L+ students attempted so far</span>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <!-- use your uploaded image path below -->
+            <img class="hero-image" src="./assets/testskill.png" />
+
+            <!-- pills overlay (adjust positions if you want finer control) -->
+            <div class="pill p1">
+              <span class="dot orange"></span> Qualitative Aptitude
+            </div>
+            <div class="pill p2">
+              <span class="dot pink"></span> Logical Reasoning
+            </div>
+            <div class="pill p3">
+              <span class="dot blue"></span> Verbal Ability
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section__container test-section">
+      <h2 class="test-heading">
+        Improve your <span class="highlight">Profile</span> &
+        <span class="highlight">Hiring</span> Chances
+      </h2>
+      <p class="test-subtitle">
+        Take skill assessment tests and showcase your expertise to top hiring
+        companies.
+      </p>
+
+      <!-- Swiper Container -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper" id="slider"></div>
+
+        <!-- Navigation Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <button class="btn"><a href="./test/contests.html">View All</a></button>
+    </section>
+
+    <!-- POPUP MODAL -->
+    <div id="popupModal" class="popup hidden">
+      <div class="popup-content">
+        <span id="closePopup" class="close">&times;</span>
+
+        <img id="popupImage" />
+
+        <h2 id="popupTitle"></h2>
+        <p id="popupDesc" class="modal-desc"></p>
+
+        <p><strong>Duration:</strong> <span id="popupDuration"></span></p>
+        <p><strong>Skills:</strong> <span id="popupSkills"></span></p>
+        <p><strong>Questions:</strong> <span id="popupQuestions"></span></p>
+
+        <button id="popupStartBtn" class="start btn">Start Test</button>
+      </div>
+    </div>
+
+    <section class="section__container company__section" id="companies">
+      <h2 class="section__header">
+        <span>Top Companies</span> Hiring Right Now
+      </h2>
+      <p class="section__description">
+        Explore world-class companies actively recruiting talented
+        professionals.
+      </p>
+
+      <div class="company__grid">
+        <div class="company__card">
+          <img src="assets/google.png" alt="Google" />
+          <h4>Google</h4>
+          <p>USA • Leading global tech innovator</p>
+        </div>
+
+        <div class="company__card">
+          <img src="assets/microsoft.png" alt="Microsoft" />
+          <h4>Microsoft</h4>
+          <p>USA • Empowering digital transformation</p>
+        </div>
+
+        <div class="company__card">
+          <img src="assets/amazon.png" alt="Amazon" />
+          <h4>Amazon</h4>
+          <p>USA • World’s largest e-commerce ecosystem</p>
+        </div>
+
+        <div class="company__card">
+          <img src="assets/linkedin.png" alt="LinkedIn" />
+          <h4>LinkedIn</h4>
+          <p>Germany • Globally trusted professional network</p>
+        </div>
+
+        <div class="company__card">
+          <img src="assets/figma.png" alt="Figma" />
+          <h4>Figma</h4>
+          <p>USA • Next-gen design & collaboration tools</p>
+        </div>
+
+        <div class="company__card">
+          <img src="assets/twitter.png" alt="Twitter" />
+          <h4>Twitter</h4>
+          <p>USA • Real-time global communication platform</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container offer__container" id="service">
+      <h2 class="section__header">What We <span>Offer</span></h2>
+      <p class="section__description">
+        Explore the Benefits and Services We Provide to Enhance Your Job Search
+        and Career Success
+      </p>
+      <div class="offer__grid">
+        <div class="offer__card">
+          <img src="assets/offer-1.jpg" alt="offer" />
+          <div class="offer__details">
+            <span>01</span>
+            <div>
+              <h4>Job Recommendation</h4>
+              <p>
+                Personalized job matches tailored to your skills and preferences
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="offer__card">
+          <img src="assets/offer-2.jpg" alt="offer" />
+          <div class="offer__details">
+            <span>02</span>
+            <div>
+              <h4>Create & Build Portfolio</h4>
+              <p>Showcase your expertise with professional portfolio design</p>
+            </div>
+          </div>
+        </div>
+        <div class="offer__card">
+          <img src="assets/offer-3.jpg" alt="offer" />
+          <div class="offer__details">
+            <span>03</span>
+            <div>
+              <h4>Career Consultation</h4>
+              <p>Receive expert advice to navigate your career path</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="client-section">
+      <h2 class="test-heading">
+        Our Trusted
+        <span class="highlight">Clients</span>
+      </h2>
+
+      <!-- Top Row -->
+      <div class="client-row">
+        <div class="client-track">
+          <!-- Client 1 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+              alt="Google Logo"
+            />
+            <p class="client-name">Google</p>
+          </div>
+          <!-- Client 2 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png"
+              alt="Microsoft Logo"
+            />
+            <p class="client-name">Microsoft</p>
+          </div>
+          <!-- Client 3 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
+              alt="Apple Logo"
+            />
+            <p class="client-name">Apple</p>
+          </div>
+          <!-- Client 4 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png"
+              alt="Amazon Logo"
+            />
+            <p class="client-name">Amazon</p>
+          </div>
+          <!-- Client 5 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png"
+              alt="Meta Logo"
+            />
+            <p class="client-name">Meta</p>
+          </div>
+          <!-- Client 6 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Tesla%2C_Inc..svg/2560px-Logo_of_Tesla%2C_Inc..svg.png"
+              alt="Tesla Logo"
+            />
+            <p class="client-name">Tesla</p>
+          </div>
+          <!-- Client 7 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Netflix_logo.svg/2560px-Netflix_logo.svg.png"
+              alt="Netflix Logo"
+            />
+            <p class="client-name">Netflix</p>
+          </div>
+          <!-- Client 8 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png"
+              alt="Spotify Logo"
+            />
+            <p class="client-name">Spotify</p>
+          </div>
+          <!-- Client 9 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/2560px-IBM_logo.svg.png"
+              alt="IBM Logo"
+            />
+            <p class="client-name">IBM</p>
+          </div>
+          <!-- Client 10 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Intel-logo_2022-.svg/2560px-Intel-logo_2022-.svg.png"
+              alt="Intel Logo"
+            />
+            <p class="client-name">Intel</p>
+          </div>
+
+          <!-- Duplicate for infinite scroll -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2560px-Google_2015_logo.svg.png"
+              alt="Google Logo"
+            />
+            <p class="client-name">Google</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png"
+              alt="Microsoft Logo"
+            />
+            <p class="client-name">Microsoft</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/1667px-Apple_logo_black.svg.png"
+              alt="Apple Logo"
+            />
+            <p class="client-name">Apple</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png"
+              alt="Amazon Logo"
+            />
+            <p class="client-name">Amazon</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png"
+              alt="Meta Logo"
+            />
+            <p class="client-name">Meta</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Tesla%2C_Inc..svg/2560px-Logo_of_Tesla%2C_Inc..svg.png"
+              alt="Tesla Logo"
+            />
+            <p class="client-name">Tesla</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Netflix_logo.svg/2560px-Netflix_logo.svg.png"
+              alt="Netflix Logo"
+            />
+            <p class="client-name">Netflix</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Spotify_logo_with_text.svg/2560px-Spotify_logo_with_text.svg.png"
+              alt="Spotify Logo"
+            />
+            <p class="client-name">Spotify</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/IBM_logo.svg/2560px-IBM_logo.svg.png"
+              alt="IBM Logo"
+            />
+            <p class="client-name">IBM</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Intel-logo_2022-.svg/2560px-Intel-logo_2022-.svg.png"
+              alt="Intel Logo"
+            />
+            <p class="client-name">Intel</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Row -->
+      <div class="client-row bottom">
+        <div class="client-track">
+          <!-- Client 11 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"
+              alt="Visa Logo"
+            />
+            <p class="client-name">Visa</p>
+          </div>
+          <!-- Client 12 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/2048px-ChatGPT_logo.svg.png"
+              alt="ChatGPT Logo"
+            />
+            <p class="client-name">ChatGPT</p>
+          </div>
+          <!-- Client 13 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png"
+              alt="Samsung Logo"
+            />
+            <p class="client-name">Samsung</p>
+          </div>
+          <!-- Client 14 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Music_icon.svg/2048px-Apple_Music_icon.svg.png"
+              alt="Apple Music Logo"
+            />
+            <p class="client-name">Apple Music</p>
+          </div>
+          <!-- Client 15 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Youtube_logo.png/2560px-Youtube_logo.png"
+              alt="YouTube Logo"
+            />
+            <p class="client-name">YouTube</p>
+          </div>
+          <!-- Client 16 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Android-2020.svg/2560px-Android-2020.svg.png"
+              alt="Android Logo"
+            />
+            <p class="client-name">Android</p>
+          </div>
+          <!-- Client 17 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Adobe_Photopea_Logo.svg/2560px-Adobe_Photopea_Logo.svg.png"
+              alt="Adobe Logo"
+            />
+            <p class="client-name">Adobe</p>
+          </div>
+          <!-- Client 18 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png"
+              alt="WhatsApp Logo"
+            />
+            <p class="client-name">WhatsApp</p>
+          </div>
+          <!-- Client 19 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2048px-WhatsApp.svg.png"
+              alt="Instagram Logo"
+            />
+            <p class="client-name">Instagram</p>
+          </div>
+          <!-- Client 20 -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_of_X_%28formerly_Twitter%29.svg/2560px-Logo_of_X_%28formerly_Twitter%29.svg.png"
+              alt="X (Twitter) Logo"
+            />
+            <p class="client-name">X (Twitter)</p>
+          </div>
+
+          <!-- Duplicate for infinite scroll -->
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/2560px-Visa_Inc._logo.svg.png"
+              alt="Visa Logo"
+            />
+            <p class="client-name">Visa</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/ChatGPT_logo.svg/2048px-ChatGPT_logo.svg.png"
+              alt="ChatGPT Logo"
+            />
+            <p class="client-name">ChatGPT</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png"
+              alt="Samsung Logo"
+            />
+            <p class="client-name">Samsung</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Apple_Music_icon.svg/2048px-Apple_Music_icon.svg.png"
+              alt="Apple Music Logo"
+            />
+            <p class="client-name">Apple Music</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Youtube_logo.png/2560px-Youtube_logo.png"
+              alt="YouTube Logo"
+            />
+            <p class="client-name">YouTube</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Android-2020.svg/2560px-Android-2020.svg.png"
+              alt="Android Logo"
+            />
+            <p class="client-name">Android</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Adobe_Photopea_Logo.svg/2560px-Adobe_Photopea_Logo.svg.png"
+              alt="Adobe Logo"
+            />
+            <p class="client-name">Adobe</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/WhatsApp_logo-color-vertical.svg/2048px-WhatsApp_logo-color-vertical.svg.png"
+              alt="WhatsApp Logo"
+            />
+            <p class="client-name">WhatsApp</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2048px-WhatsApp.svg.png"
+              alt="Instagram Logo"
+            />
+            <p class="client-name">Instagram</p>
+          </div>
+          <div class="client-item">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Logo_of_X_%28formerly_Twitter%29.svg/2560px-Logo_of_X_%28formerly_Twitter%29.svg.png"
+              alt="X (Twitter) Logo"
+            />
+            <p class="client-name">X (Twitter)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Dream<span>Job</span></a>
+          </div>
+          <p>
+            Our platform is designed to help you find the perfect job and
+            achieve your professional dreams.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="../job.html">Jobs</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <ul class="footer__links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +91 234 56788
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> 123 Main Street,
+                Anytown, USA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

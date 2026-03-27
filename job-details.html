@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Details - Job Portal</title>
+    <link rel="stylesheet" href="css/job-details.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./main/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <i id="menu-btn" class="ri-menu-line"></i>
+
+          <a href="#" class="logo">Dream<span>Hire</span></a>
+        </div>
+      </div>
+ <ul class="nav__links" id="nav-links">
+        <li><a href="./main/index.html" >Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./job.html">Jobs</a></li>
+        <li><a href="./Services.html">Services</a></li>
+        <li><a href="./main/test/contests.html">Contests</a></li>
+      </ul>
+      <div class="nav__menu__btn">
+        <div class="user">
+          <div id="auth">
+            <a href="./register.html">
+              <button class="btn rgs">Register</button></a
+            >
+            <a href="./login.html"><button class="btn lgn">login</button></a>
+          </div>
+          <div id="profile">
+            <li><a href="./profile.html">Profile</a></li>
+            <button class="btn" id="logout">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="section__container">
+        <div id="loadingSpinner" class="loading-spinner">
+          <i class="fas fa-spinner fa-spin"></i> Loading job details...
+        </div>
+        <div
+          id="jobDetails"
+          class="job-details-container"
+          style="display: none"
+        >
+          <!-- Job details will be dynamically inserted here -->
+        </div>
+        <div id="loginPrompt" class="login-prompt" style="display: none">
+          <div class="prompt-content">
+            <h2>You need to login to apply for this job</h2>
+            <p>
+              Please login or create an account to apply for this job
+              opportunity.
+            </p>
+            <div class="prompt-actions">
+              <a href="login.html" class="btn">Login</a>
+              <a href="register.html" class="btn">Register</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Dream<span>Job</span></a>
+          </div>
+          <p>
+            Our platform is designed to help you find the perfect job and
+            achieve your professional dreams.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="./main/index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./job.html">Jobs</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <ul class="footer__links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +91 234 56788
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> 123 Main Street,
+                Anytown, USA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="js/job-details.js"></script>
+  </body>
+</html>

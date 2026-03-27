@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <title>Job Portal - Find Your Dream Job</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="stylesheet" href="./main/style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <i id="menu-btn" class="ri-menu-line"></i>
+
+          <a href="#" class="logo">Dream<span>Hire</span></a>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="./main/index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./job.html">Jobs</a></li>
+        <li><a href="./Services.html">Services</a></li>
+        <li><a href="./main/test/contests.html">Contests</a></li>
+      </ul>
+      <div class="nav__menu__btn">
+        <div class="user">
+          <div id="auth">
+            <a href="./register.html">
+              <button class="btn rgs">Register</button></a
+            >
+            <a href="./login.html"><button class="btn lgn">login</button></a>
+          </div>
+          <div id="profile">
+            <li><a href="./profile.html">Profile</a></li>
+            <button class="btn" id="logout">Logout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- SEARCH -->
+      <section class="section__container search-section">
+        <div class="container">
+          <div class="search-container">
+            <input
+              type="text"
+              id="searchInput"
+              placeholder="Search by company, role, skills..."
+            />
+            <button id="searchBtn"><i class="fas fa-search"></i></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- FILTERS -->
+      <section class="filter-section">
+        <!-- FILTER BUTTON -->
+        <div class="container">
+          <button class="filter-toggle-btn" id="openFilters">
+            Open Filters
+          </button>
+        </div>
+
+        <!-- SIDEBAR FILTER PANEL -->
+        <div class="filter-sidebar" id="filterSidebar">
+          <div class="filter-close" id="closeFilters">✖</div>
+          <h2>Filters</h2>
+
+          <!-- Salary -->
+          <div class="accordion">
+            <div class="accordion-title">
+              Salary Range <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              <label
+                ><input type="checkbox" name="salary" value="0-20000" /> ₹0 -
+                ₹20,000</label
+              ><br />
+              <label
+                ><input type="checkbox" name="salary" value="20000-40000" />
+                ₹20,000 - ₹40,000</label
+              ><br />
+              <label
+                ><input type="checkbox" name="salary" value="40000-60000" />
+                ₹40,000 - ₹60,000</label
+              ><br />
+              <label
+                ><input type="checkbox" name="salary" value="60000+" />
+                ₹60,000+</label
+              >
+            </div>
+          </div>
+
+          <!-- Location -->
+          <div class="accordion">
+            <div class="accordion-title">
+              Location <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content" id="locationFilters"></div>
+          </div>
+
+          <!-- Role -->
+          <div class="accordion">
+            <div class="accordion-title">
+              Role <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content" id="roleFilters"></div>
+          </div>
+
+          <!-- Work Mode -->
+          <div class="accordion">
+            <div class="accordion-title">
+              Work Mode <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              <label
+                ><input type="checkbox" name="workMode" value="remote" />
+                Remote</label
+              ><br />
+              <label
+                ><input type="checkbox" name="workMode" value="in-office" />
+                In-office</label
+              ><br />
+              <label
+                ><input type="checkbox" name="workMode" value="hybrid" />
+                Hybrid</label
+              >
+            </div>
+          </div>
+
+          <!-- Shift -->
+          <div class="accordion">
+            <div class="accordion-title">
+              Shift <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="accordion-content">
+              <label
+                ><input type="checkbox" name="jobTiming" value="dayshift" /> Day
+                Shift</label
+              ><br />
+              <label
+                ><input type="checkbox" name="jobTiming" value="nightshift" />
+                Night Shift</label
+              ><br />
+              <label
+                ><input type="checkbox" name="jobTiming" value="flexible" />
+                Flexible</label
+              >
+            </div>
+          </div>
+
+          <button id="clearFilters" class="btn-secondary">Clear Filters</button>
+        </div>
+      </section>
+
+      <!-- JOB LIST -->
+      <section class="section__container jobs-section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Available Jobs</h2>
+            <div class="results-info">
+              <span id="resultsCount">0</span> jobs found
+            </div>
+          </div>
+
+          <div id="loadingSpinner" class="loading-spinner">
+            <i class="fas fa-spinner fa-spin"></i> Loading jobs...
+          </div>
+
+          <div id="jobsList" class="jobs-grid" style="display: none"></div>
+
+          <div id="noResults" class="no-results" style="display: none">
+            <p>No jobs found matching your criteria.</p>
+          </div>
+
+          <div id="pagination" class="pagination" style="display: none"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#" class="logo">Dream<span>Job</span></a>
+          </div>
+          <p>
+            Our platform is designed to help you find the perfect job and
+            achieve your professional dreams.
+          </p>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul class="footer__links">
+            <li><a href="./main/index.html">Home</a></li>
+            <li><a href="./about.html">About Us</a></li>
+            <li><a href="./job.html">Jobs</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Follow Us</h4>
+          <ul class="footer__links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Youtube</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">
+                <span><i class="ri-phone-fill"></i></span> +91 234 56788
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span><i class="ri-map-pin-2-fill"></i></span> 123 Main Street,
+                Anytown, USA
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
