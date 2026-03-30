@@ -1,7 +1,7 @@
 # 🚀 DreamHire - Job Portal
 
-[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-6a38c2?style=for-the-badge)](https://your-deploy-link.netlify.app)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/your-username/your-repo-name)
+[![Live Demo](https://img.shields.io/badge/🌐_Live_Demo-Click_Here-6a38c2?style=for-the-badge)](https://job-portal-livid-psi.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Shiakh0112/job-Portal-/edit/main)
 
 > 🔗 **Live Demo:** [https://your-deploy-link.netlify.app](https://your-deploy-link.netlify.app)
 > 
